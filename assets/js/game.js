@@ -7,4 +7,22 @@ let score = 0;
 let questionCounter = 0;
 let avaiableQuestions = [];
 
+import questions from "./questions.js";
 
+// ====== Constants ====== //
+
+const score_points = 5;
+const max_questions = 20;
+
+// ====== Start Game Controller ====== //
+
+// startGame = () => {
+//     questionCounter = 0;
+//     score = 0;
+//     avaiableQuestions = [...questions];
+//     console.log(avaiableQuestions);
+// };
+
+// startGame();
+
+console.log(...questions)

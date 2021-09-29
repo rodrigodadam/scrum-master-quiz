@@ -24,12 +24,11 @@ body {
     border-bottom-left-radius: 3px;
     border-top-left-radius: 3px;
     color: white;
-    text-align: center;
-    justify-content: center;
-    font-size: larger;
 }
 
 .choice-text {
     padding: 1.5rem;
     width: 100%;
 }
+
+

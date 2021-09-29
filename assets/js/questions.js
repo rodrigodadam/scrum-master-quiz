@@ -1,13 +1,25 @@
 let questions = [
     {
 
-        "question": "Web pages are designed using?",
-        "option1" : "HTML",
-        "option2": "CSS",
-        "option3": "Javascript",
-        "option4": "Jquery",
-        "option5": "PHP",
-        "answer": 2
+        question: "Who is responsible for all estimates in the Product Backlog?",
+        option1: "The Scrum Master",
+        option2: "The Product Owner",
+        option3: "The Scrum Team",
+        option4: "The Development Team",
+        option5: "The Product Owner and the Scrum Master",
+        answer: 4
+    
+    },
+
+    {
+        
+        question: "Who is responsible for the Product Backlog?",
+        option1: "The Product Owner",
+        option2: "The Scrum Master and The Development Team",
+        option3: "The Scrum Team",
+        option4: "The Development Team",
+        option5: "The Product Owner and the Scrum Master",
+        answer: 1
 
     }
 ]

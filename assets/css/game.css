@@ -1,0 +1,35 @@
+body {
+    color: white;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.7rem;
+    width: 100%;
+    background-color: rgb(161, 185, 207);
+    border-radius: 3px;
+    font-size: medium;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: rgb(0, 162, 255);
+    transform: scale(1.01);
+    transition: trasform 150ms;
+}
+
+.choice-prefix {
+    padding: 1.5rem 2.3rem;
+    background-color: rgb(0, 129, 250);
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+}
+
+.choice-text {
+    padding: 1.5rem;
+    width: 100%;
+}

@@ -1,5 +1,7 @@
 const question = document.getElementById("question");
 const options = Array.from(document.getElementsByClassName("option-text"));
+const questionCounterText = document.getElementById("questionCounter");
+const scoreText = document.getElementById("score");
 
 let currentQuestion = {};
 let acceptingAnswers = true;

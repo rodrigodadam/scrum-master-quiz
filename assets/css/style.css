@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300&display=swap');
 
 * {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -9,8 +9,15 @@
 }
 
 :root {
-    background-color: black;
+    background-color: #EFF5F8;
     font-size: medium;
+}
+
+.hero {
+    background-color: rgba(58,124,154,0.65);
+    padding: 3rem;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 h1, h2, h3, h4 {
@@ -19,13 +26,14 @@ h1, h2, h3, h4 {
 
 h1 {
     font-size: 6rem;
-    color: white;
+    color: #fff;
     text-align: center;
+    text-transform: uppercase;
 }
 
 h2 {
     font-size: 4rem;
-    color: white;
+    color: #263b4f;
     text-align: center;
     margin-bottom: 2rem;
 }
@@ -61,14 +69,14 @@ h2 {
     width: 25rem;
     text-align: center;
     margin-bottom: 1rem;
-    color: black;
-    background-color: rgb(213, 236, 5);
+    color: white;
+    background-color: #31A1B9;
     border-radius: 5px;
 }
 
 .btn:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.5rem 0 rgb(189, 161, 4);
+    box-shadow: 0 0.4rem 1.5rem 0 #31A1B9;
     transform: translate(-0.2rem);
     transition: transform 150ms;
 }

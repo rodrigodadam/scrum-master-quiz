@@ -1,6 +1,6 @@
-body {
+/* body {
     color: white;
-}
+} */
 
 .options-container {
     display: flex;
@@ -40,3 +40,24 @@ body {
     background-color: #d9534f;
 }
 
+
+/* --- Game Display --- */
+
+#game-display {
+    display: flex;
+    justify-content: space-between;
+}
+
+#game-display h1 {
+    color: black;
+    font-size: 3rem;
+}
+
+.display-prefix {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.display-main-text {
+    text-align: center;
+}

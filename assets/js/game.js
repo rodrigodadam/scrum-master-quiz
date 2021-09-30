@@ -37,8 +37,10 @@ function getNewQuestion() {
         return window.location.assign("./index.html")
     }
 
+    // Increment Question Count +1 after gamer reply the question
     questionCounter++;
     questionCounterText.innerText = `${questionCounter}/${max_questions}`;
+
     const questionIndex = Math.floor(Math.random() * avaiableQuestions.length);
     currentQuestion = avaiableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
@@ -69,6 +71,10 @@ options.forEach(option => {
         let classToApply = "incorrect";
             if (selectedAnswer == currentQuestion.answer) {
                 classToApply = "correct";
+            };
+
+            if (classToApply === "correct") {
+                increaseScore(score_points);
             }
 
         selectedOption.parentElement.classList.add(classToApply);
@@ -79,5 +85,10 @@ options.forEach(option => {
 
     });
 });
+
+function increaseScore(num) {
+    score += num;
+    scoreText.innerText = score;
+};
 
 startGame();

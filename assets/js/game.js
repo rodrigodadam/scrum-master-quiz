@@ -34,7 +34,7 @@ function getNewQuestion() {
 
     // If there are no more question or the game finish, redirect to another page
     if (avaiableQuestions.length === 0 || questionCounter > max_questions) {
-        return window.location.assign("./index.html")
+        return window.location.assign("./end.html")
     }
 
     // Increment Question Count +1 after gamer reply the question

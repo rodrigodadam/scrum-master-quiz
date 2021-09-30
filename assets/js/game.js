@@ -30,6 +30,12 @@ function startGame() {
  * Splice out question used to not repeat questions
  */
 function getNewQuestion() {
+
+    // If there are no more question or the game finish, redirect to another page
+    if (avaiableQuestions.length === 0 || questionCounter > max_questions) {
+        return window.location.assign("./index.html")
+    }
+
     questionCounter++;
     const questionIndex = Math.floor(Math.random() * avaiableQuestions.length);
     currentQuestion = avaiableQuestions[questionIndex];

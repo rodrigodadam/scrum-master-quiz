@@ -37,6 +37,8 @@ h2 {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    max-width: 80rem;
+    padding: 1.5rem;
 }
 
 .flex-column {

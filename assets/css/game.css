@@ -31,4 +31,12 @@ body {
     width: 100%;
 }
 
+/* --- Used the Boostrap Pallet Colors / https://colorswall.com/palette/3/ --- */
+.correct {
+    background-color: #5cb85c;
+}
+
+.incorrect {
+    background-color: #d9534f;
+}
 

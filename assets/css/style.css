@@ -113,3 +113,18 @@ input::placeholder {
     text-align: center;
     color: lightblue;
 }
+
+
+/* @media (max-width: 375px) {
+    #end .btn {
+        font-size: 1.rem;
+        font-weight: 600;
+        padding: 1rem 0;
+        width: 20rem;
+        text-align: center;
+        margin-bottom: 0.5rem;
+        color: white;
+        background-color: #31A1B9;
+        border-radius: 5px;
+    }
+} */

@@ -16,13 +16,12 @@ const max_questions = 20;
 
 // ====== Start Game Controller ====== //
 
-// startGame = () => {
-//     questionCounter = 0;
-//     score = 0;
-//     avaiableQuestions = [...questions];
-//     console.log(avaiableQuestions);
-// };
+function startGame() {
+    questionCounter = 0;
+    score = 0;
+    avaiableQuestions = [...questions];
+    console.log(avaiableQuestions);
+};
 
-// startGame();
+startGame();
 
-console.log(...questions)

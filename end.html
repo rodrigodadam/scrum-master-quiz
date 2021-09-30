@@ -7,15 +7,15 @@
 
     <link rel="stylesheet" href="./assets/css/style.css">
 
-    <title>Thanks You</title>
+    <title>Thank You</title>
 </head>
 <body>
     <div class="container">
         <div class="flex-center flex-column" id="end">
             <h1 id="totalScore">0</h1>
-            <form>
-                <input type="text" name="isername" placeholder="Your Name">
-                <button type="submit" class="btn" id="saveScore" onclick="saveHighScore(event)">Save</button>
+            <form id="endForm">
+                <input type="text" name="username" id="username" placeholder="Your Name">
+                <button type="submit" class="btn" id="saveScore"  disabled="disabled">Save</button>
             </form>
             <a href="./game.html" class="btn" >Play Again</a>
             <a href="/index.html" class="btn">Home</a>

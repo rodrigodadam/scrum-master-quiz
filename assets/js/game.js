@@ -1,5 +1,5 @@
 const question = document.getElementById("question");
-const options = Array.from(document.getElementsByClassName(".choice-text"))
+const options = Array.from(document.getElementsByClassName("option-text"));
 
 let currentQuestion = {};
 let acceptinsAnswers = true;
@@ -21,7 +21,23 @@ function startGame() {
     score = 0;
     avaiableQuestions = [...questions];
     console.log(avaiableQuestions);
+    getNewQuestion();
 };
 
-startGame();
+/**
+ * Get a random question from Data,
+ * Get number from data-number to access the questions atributes
+ */
+function getNewQuestion() {
+    questionCounter++;
+    const questionIndex = Math.floor(Math.random() * avaiableQuestions.length);
+    currentQuestion = avaiableQuestions[questionIndex];
+    question.innerText = currentQuestion.question;
 
+    options.forEach(option => {
+        const number = option.dataset["number"];
+        option.innerText = currentQuestion["option" + number];
+    });
+}
+
+startGame();

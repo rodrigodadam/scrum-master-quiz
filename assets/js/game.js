@@ -20,7 +20,6 @@ function startGame() {
     questionCounter = 0;
     score = 0;
     avaiableQuestions = [...questions];
-    console.log(avaiableQuestions);
     getNewQuestion();
 };
 
@@ -63,7 +62,12 @@ options.forEach(option => {
 
         const selectedOption = i.target;
         const selectedAnswer = selectedOption.dataset["number"];
-        console.log(selectedAnswer)
+
+        let classToApply = "incorrect";
+            if (selectedAnswer == currentQuestion.answer) {
+                classToApply = "correct";
+            }
+
         getNewQuestion();
     });
 });

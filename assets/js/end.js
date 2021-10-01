@@ -33,7 +33,7 @@ function savePassScore(e) {
 
     localStorage.setItem("passScores", JSON.stringify(passScores));
 
-    console.log(passScores)
+    window.location.assign("./index.html");
 
 };
 

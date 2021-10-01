@@ -87,7 +87,7 @@ h2 {
     transform: none;
 }
 
-/* --- End Screen --- */
+/* --- End Game Screen --- */
 
 #end h1 {
     color: #263b4f;
@@ -113,6 +113,23 @@ input::placeholder {
     text-align: center;
     color: lightblue;
 }
+
+
+/* --- Best Score Page --- */
+
+
+#bestScores h1 {
+    color: #263b4f;
+}
+
+
+
+
+
+
+
+
+
 
 
 /* @media (max-width: 375px) {

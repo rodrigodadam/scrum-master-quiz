@@ -14,7 +14,7 @@ import questions from "./questions.js";
 // ====== Constants ====== //
 
 const score_points = 5;
-const max_questions = 20;
+const max_questions = 5;
 
 // ====== Start Game Controller ====== //
 

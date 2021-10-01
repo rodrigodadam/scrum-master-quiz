@@ -28,11 +28,11 @@ function savePassScore(e) {
         name: username.value
     };
     passScores.push(score);
-
     passScores.sort((a, b) => b.score - a.score);
-
     passScores.splice(3);
-    
+
+    localStorage.setItem("passScores", JSON.stringify(passScores));
+
     console.log(passScores)
 
 };

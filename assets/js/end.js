@@ -4,6 +4,9 @@ let endForm = document.getElementById("endForm");
 const totalScore = document.getElementById("totalScore");
 let mostRecentScore = localStorage.getItem("mostRecentScore");
 
+const highScores = JSON.parse(localStorage.getItem("hishScores")) || [];
+console.log(highScores);
+
 totalScore.innerText = mostRecentScore;
 
 // Block the Save Button if the player do not submit a text on input.

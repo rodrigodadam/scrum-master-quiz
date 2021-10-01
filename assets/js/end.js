@@ -3,8 +3,8 @@ const saveScoreBtn = document.getElementById("saveScoreBtn");
 let endForm = document.getElementById("endForm");
 const totalScore = document.getElementById("totalScore");
 let mostRecentScore = localStorage.getItem("mostRecentScore");
-
-let highScores = JSON.parse(localStorage.getItem("highScores")) || [];
+const maxPassScore = 3;
+let passScores = JSON.parse(localStorage.getItem("passScores")) || [];
 
 
 totalScore.innerText = mostRecentScore;
@@ -20,17 +20,20 @@ endForm.addEventListener("input", () => {
 });
 
 
-function saveHighScore(e) {
-    console.log("cliquei");
+function savePassScore(e) {
     e.preventDefault();
 
     const score = {
         score: mostRecentScore,
         name: username.value
     };
-    console.log(score);
-    // highScores.push(score);
-    // console.log(highScores)
+    passScores.push(score);
+
+    passScores.sort((a, b) => b.score - a.score);
+
+    passScores.splice(3);
+    
+    console.log(passScores)
 
 };
 

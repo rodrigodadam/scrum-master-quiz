@@ -34,6 +34,9 @@ function getNewQuestion() {
 
     // If there are no more question or the game finish, redirect to another page
     if (avaiableQuestions.length === 0 || questionCounter > max_questions) {
+        localStorage.setItem("mostRecentScore", score);
+
+        //Go to and page
         return window.location.assign("./end.html")
     }
 

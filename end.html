@@ -12,10 +12,10 @@
 <body>
     <div class="container">
         <div class="flex-center flex-column" id="end">
-            <h1 id="totalScore">0</h1>
+            <h1 id="totalScore"></h1>
             <form id="endForm">
-                <input type="text" name="username" id="username" placeholder="Your Name">
-                <button type="submit" class="btn" id="saveScore"  disabled="disabled">Save</button>
+                <input type="text" name="username" id="username" placeholder="Enter Your Name">
+                <button type="submit" class="btn" id="saveScoreBtn"  onclick="saveHighScore(event)" disabled="disabled">Save</button>
             </form>
             <a href="./game.html" class="btn" >Play Again</a>
             <a href="/index.html" class="btn">Home</a>

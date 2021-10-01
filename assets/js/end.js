@@ -1,11 +1,11 @@
 const username = document.getElementById("username");
-const saveScore = document.getElementById("saveScore");
+const saveScoreBtn = document.getElementById("saveScoreBtn");
 let endForm = document.getElementById("endForm");
 const totalScore = document.getElementById("totalScore");
 let mostRecentScore = localStorage.getItem("mostRecentScore");
 
-const highScores = JSON.parse(localStorage.getItem("hishScores")) || [];
-console.log(highScores);
+let highScores = JSON.parse(localStorage.getItem("highScores")) || [];
+
 
 totalScore.innerText = mostRecentScore;
 
@@ -13,13 +13,24 @@ totalScore.innerText = mostRecentScore;
 
 endForm.addEventListener("input", () => {
     if (username.value.length > 0) {
-        saveScore.removeAttribute("disabled");
+        saveScoreBtn.removeAttribute("disabled");
     } else {
-        saveScore.setAttribute("disabled", "disabled");
+        saveScoreBtn.setAttribute("disabled", "disabled");
     }
 });
 
 
 function saveHighScore(e) {
+    console.log("cliquei");
     e.preventDefault();
+
+    const score = {
+        score: mostRecentScore,
+        name: username.value
+    };
+    console.log(score);
+    // highScores.push(score);
+    // console.log(highScores)
+
 };
+

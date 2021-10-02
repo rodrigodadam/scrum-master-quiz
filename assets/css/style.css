@@ -114,6 +114,10 @@ input::placeholder {
     color: lightblue;
 }
 
+.hidden {
+    display: none;
+}
+
 
 /* --- Best Score Page --- */
 
@@ -139,8 +143,16 @@ input::placeholder {
     text-decoration: underline;
 }
 
-.hidden {
-    display: none;
+
+/* --- No Pass Page --- */
+
+#noPassDiv h1 {
+    color: #263b4f;
+}
+
+#noPassDiv h2 {
+    color: #263b4f;
+    text-decoration: underline;
 }
 
 /* --- Loading --- */

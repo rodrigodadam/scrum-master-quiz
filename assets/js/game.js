@@ -11,7 +11,8 @@ let avaiableQuestions = [];
 
 let questions = [];
 
-fetch("./question.json").then(res => {
+// ====== Load all questions from questions.JSON file  ====== //
+fetch("./questions.json").then(res => {
     return res.json();
 }).then(loadedQuestion => {
     console.log(loadedQuestion);
@@ -22,13 +23,15 @@ fetch("./question.json").then(res => {
 });
 
 
-// import questions from "./questions.js";
-
 const score_points = 5;
 const max_questions = 5;
 
-// ====== Start Game Controller ====== //
+// ====== Start Game Controllers ====== //
 
+/**
+ * Start the game with Score 0 and Questions 1/25.
+ * After each question answered load a new random question.
+ */
 function startGame() {
     questionCounter = 0;
     score = 0;
@@ -100,9 +103,13 @@ options.forEach(option => {
     });
 });
 
+
+/**
+ * Increase the game score for each correct answer.
+ * As SCRUM MASTER real test the player needs 85% of correct answer to pass in this quiz
+ * But just because this is a quiz the player has only 25 random questions.
+ */
 function increaseScore(num) {
     score += num;
     scoreText.innerText = score+"%";
 };
-
-// startGame();

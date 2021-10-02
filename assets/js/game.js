@@ -53,13 +53,21 @@ function startGame() {
  */
 function getNewQuestion() {
 
-    // If there are no more question or the game finish, redirect to another page
-    if (avaiableQuestions.length === 0 || questionCounter > max_questions) {
+    if (score > 10 && questionCounter >= max_questions) {
         localStorage.setItem("mostRecentScore", score);
+        return window.location.assign("./end.html");
+    } else if (score <10 && questionCounter >= max_questions) {
+        return window.location.assign("./nopass.html");
+    }
+
+    
+    // If there are no more question or the game finish, redirect to another page
+    // if (avaiableQuestions.length === 0 || questionCounter > max_questions) {
+    //     localStorage.setItem("mostRecentScore", score);
 
         //Go to and page
-        return window.location.assign("./end.html")
-    }
+    //     return window.location.assign("./end.html")
+    // }
 
     // Increment Question Count +1 after gamer reply the question
     questionCounter++;

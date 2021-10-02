@@ -4,10 +4,10 @@ let endForm = document.getElementById("endForm");
 const totalScore = document.getElementById("totalScore");
 let mostRecentScore = localStorage.getItem("mostRecentScore");
 const maxPassScore = 3;
-let passScores = JSON.parse(localStorage.getItem("passScores")) || [];
+const passScores = JSON.parse(localStorage.getItem("passScores")) || [];
 
 
-totalScore.innerText = mostRecentScore;
+totalScore.innerText = mostRecentScore+"%";
 
 // Block the Save Button if the player do not submit a text on input.
 

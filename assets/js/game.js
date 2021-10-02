@@ -9,7 +9,20 @@ let score = 0;
 let questionCounter = 0;
 let avaiableQuestions = [];
 
-import questions from "./questions.js";
+let questions = [];
+
+fetch("./question.json").then(res => {
+    return res.json();
+}).then(loadedQuestion => {
+    console.log(loadedQuestion);
+    questions = loadedQuestion;
+    startGame();
+}).catch(err => {
+    console.log(err);
+});
+
+
+// import questions from "./questions.js";
 
 const score_points = 5;
 const max_questions = 5;
@@ -92,4 +105,4 @@ function increaseScore(num) {
     scoreText.innerText = score+"%";
 };
 
-startGame();
+// startGame();

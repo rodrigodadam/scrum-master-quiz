@@ -57,3 +57,24 @@
 .display-main-text {
     text-align: center;
 }
+
+/* --- Loading --- */
+
+
+#loader {
+    border: 1.5rem white;
+    border-radius: 50%;
+    border-top: 1.5rem #31A1B9;
+    width: 12rem;
+    height: 12rem;
+    animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

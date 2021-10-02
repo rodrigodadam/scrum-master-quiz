@@ -2,6 +2,8 @@ const question = document.getElementById("question");
 const options = Array.from(document.getElementsByClassName("option-text"));
 const questionCounterText = document.getElementById("questionCounter");
 const scoreText = document.getElementById("score");
+const loader = document.getElementById("loader");
+const game = document.getElementById("game");
 
 let currentQuestion = {};
 let acceptingAnswers = true;
@@ -17,10 +19,15 @@ fetch("./questions.json").then(res => {
 }).then(loadedQuestion => {
     console.log(loadedQuestion);
     questions = loadedQuestion;
+    game.classList.remove("hidden");
+    loader.classList.add("hidden");
     startGame();
 }).catch(err => {
     console.log(err);
 });
+
+
+
 
 
 const score_points = 5;

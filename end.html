@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
     <link rel="stylesheet" href="./assets/css/style.css">
 
     <title>Thank You</title>
@@ -15,10 +18,16 @@
             <h1 id="totalScore"></h1>
             <form id="endForm">
                 <input type="text" name="username" id="username" placeholder="Enter Your Name">
-                <button type="submit" class="btn" id="saveScoreBtn"  onclick="savePassScore(event)" disabled="disabled">Save</button>
+                <button type="submit" class="btn" id="saveScoreBtn"  onclick="savePassScore(event)" disabled="disabled">Save  
+                    <i class="fas fa-save"></i>
+                </button>
             </form>
-            <a href="./game.html" class="btn" >Play Again</a>
-            <a href="/index.html" class="btn">Home</a>
+            <a href="./game.html" class="btn" >Play Again 
+                <i class="fas fa-play-circle"></i>
+            </a>
+            <a href="/index.html" class="btn">Home 
+                <i class="fas fa-home"></i>
+            </a>
         </div>
     </div>
     <script src="./assets/js/end.js"></script>

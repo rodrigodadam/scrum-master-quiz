@@ -11,8 +11,6 @@ let avaiableQuestions = [];
 
 import questions from "./questions.js";
 
-// ====== Constants ====== //
-
 const score_points = 5;
 const max_questions = 5;
 
@@ -91,7 +89,7 @@ options.forEach(option => {
 
 function increaseScore(num) {
     score += num;
-    scoreText.innerText = score;
+    scoreText.innerText = score+"%";
 };
 
 startGame();

@@ -10,19 +10,17 @@
 
     <link rel="stylesheet" href="./assets/css/style.css">
 
-    <title>Thank You</title>
+    <title>Sorry Budy</title>
 </head>
 <body>
     <div class="container">
-        <div class="flex-center flex-column" id="end">
+        <div class="flex-center flex-column" id="noPassDiv">
+            <h1 id="noPass">Sorry you didn't pass 
+                <i class="fas fa-sad-cry"></i>
+            </h1>
+            <h2 id="tryAgain">But you can try Again</h2>
             <h1 id="totalScore"></h1>
-            <form id="endForm">
-                <input type="text" name="username" id="username" placeholder="Enter Your Name">
-                <button type="submit" class="btn" id="saveScoreBtn"  onclick="savePassScore(event)" disabled="disabled">Save  
-                    <i class="fas fa-save"></i>
-                </button>
-            </form>
-            <a href="./game.html" class="btn" >Play Again 
+            <a href="./game.html" class="btn" >Try Again 
                 <i class="fas fa-play-circle"></i>
             </a>
             <a href="/index.html" class="btn">Home 
@@ -30,6 +28,6 @@
             </a>
         </div>
     </div>
-    <script src="./assets/js/end.js"></script>
+    <script src="./assets/js/game.js"></script>
 </body>
 </html>

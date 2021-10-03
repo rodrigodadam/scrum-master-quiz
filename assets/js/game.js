@@ -27,9 +27,6 @@ fetch("./questions.json").then(res => {
 });
 
 
-
-
-
 const score_points = 5;
 const max_questions = 5;
 
@@ -46,6 +43,23 @@ function startGame() {
     getNewQuestion();
 };
 
+
+/**
+ * Redirect the player to a new page after finish the game.
+ * If the player Pass go to pass.html
+ * If the player Fail go to fail.html
+ */
+function redirect() {
+
+    if (score > 10 && questionCounter >= max_questions) {
+        localStorage.setItem("mostRecentScore", score);
+        return window.location.assign("./pass.html");
+    } else if (score <10 && questionCounter >= max_questions) {
+        return window.location.assign("./fail.html");
+    }
+
+}
+
 /**
  * Get a random question from Data,
  * Get number from data-number to access the questions atributes,
@@ -53,22 +67,11 @@ function startGame() {
  */
 function getNewQuestion() {
 
-    if (score > 10 && questionCounter >= max_questions) {
-        localStorage.setItem("mostRecentScore", score);
-        return window.location.assign("./end.html");
-    } else if (score <10 && questionCounter >= max_questions) {
-        return window.location.assign("./nopass.html");
+    // If there are no more question or the game finish, call redirect()
+    if (questionCounter >= max_questions) {
+        redirect();
     }
-
-    
-    // If there are no more question or the game finish, redirect to another page
-    // if (avaiableQuestions.length === 0 || questionCounter > max_questions) {
-    //     localStorage.setItem("mostRecentScore", score);
-
-        //Go to and page
-    //     return window.location.assign("./end.html")
-    // }
-
+   
     // Increment Question Count +1 after gamer reply the question
     questionCounter++;
     questionCounterText.innerText = `${questionCounter}/${max_questions}`;
@@ -128,3 +131,5 @@ function increaseScore(num) {
     score += num;
     scoreText.innerText = score+"%";
 };
+
+

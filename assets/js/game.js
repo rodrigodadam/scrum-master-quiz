@@ -51,14 +51,15 @@ function startGame() {
  */
 function redirect() {
 
-    if (score > 10 && questionCounter >= max_questions) {
+    if (score > 10) {
         localStorage.setItem("mostRecentScore", score);
         return window.location.assign("./pass.html");
-    } else if (score <10 && questionCounter >= max_questions) {
+    } else if (score <10) {
         return window.location.assign("./fail.html");
     }
 
 }
+
 
 /**
  * Get a random question from Data,
@@ -133,3 +134,42 @@ function increaseScore(num) {
 };
 
 
+// --- Game Timer --- //
+
+/**
+ * When the game starts, the startTimer is called.
+ * If the player do not finish the game before the timer is over, they will be redirect to another page according to their score
+ */
+function startTimer(duration, display) {
+    let start = Date.now(),
+        diff,
+        minutes,
+        seconds;
+    function timer() {
+        // startTimer() was called
+        diff = duration - (((Date.now() - start) / 1000) | 0);
+
+        minutes = (diff / 60) | 0;
+        seconds = (diff % 60) | 0;
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = minutes + ":" + seconds; 
+
+        if (diff <= 0) {
+            //If the timer is over the player will be redirect to another page according to their score
+            redirect();
+        }
+    };
+    //Do not wait a full second before the timer starts
+    timer();
+    setInterval(timer, 1000);
+}
+
+window.onload = function () {
+    let gameTime = 60 * 1,
+        display = document.querySelector('#timer');
+    startTimer(gameTime, display);
+
+};

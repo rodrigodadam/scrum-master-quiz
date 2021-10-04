@@ -30,7 +30,9 @@ fetch("./questions.json").then(res => {
 const score_points = 5;
 const max_questions = 5;
 
+
 // ====== Start Game Controllers ====== //
+
 
 /**
  * Start the game with Score 0 and Questions 1/25.
@@ -92,7 +94,9 @@ function getNewQuestion() {
 
 };
 
-//Event listener to click in options
+
+//Event listener to click in options - apply class correct/incorrect to options.
+
 
 options.forEach(option => {
     option.addEventListener("click", i => {
@@ -136,6 +140,7 @@ function increaseScore(num) {
 
 // --- Game Timer --- //
 
+
 /**
  * When the game starts, the startTimer is called.
  * If the player do not finish the game before the timer is over, they will be redirect to another page according to their score
@@ -167,6 +172,7 @@ function startTimer(duration, display) {
     setInterval(timer, 1000);
 }
 
+//Adjust the Game Timer multiplying 60 sec * a number (this number will be the minutes that player has to finish the game)
 window.onload = function () {
     let gameTime = 60 * 1,
         display = document.querySelector('#timer');

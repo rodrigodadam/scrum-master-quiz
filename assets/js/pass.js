@@ -9,7 +9,7 @@ const passScores = JSON.parse(localStorage.getItem("passScores")) || [];
 
 totalScore.innerText = mostRecentScore+"%";
 
-// Block the Save Button if the player do not submit a text on input.
+// To avoid player save a blank text input this eventlistener block the Save Button if the player do not submit a text on input.
 
 endForm.addEventListener("input", () => {
     if (username.value.length > 0) {
@@ -20,6 +20,9 @@ endForm.addEventListener("input", () => {
 });
 
 
+ /** 
+  * If the player wins and has a score better them the player before, He can save the score into a Local Storage
+ */
 function savePassScore(e) {
     e.preventDefault();
 

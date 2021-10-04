@@ -40,8 +40,8 @@ h2 {
 
 .container {
     width: 100vw;
-    height: 100vh;
-    display: flex;
+    height: 92.5vh;
+    display: flex; 
     align-items: center;
     justify-content: center;
     margin: 0 auto;
@@ -176,7 +176,30 @@ input::placeholder {
     }
 }
 
+/* --- Start Footer --- */
 
+footer {
+    background: #000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .footer-text span {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+
+footer .footer-text span a {
+    font-weight: 500;
+    color: #FFF;
+}
+
+footer .footer-text span a:hover {
+    text-decoration: underline;
+}
+
+/* --- End Footer --- */
 
 
 

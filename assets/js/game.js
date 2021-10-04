@@ -43,7 +43,7 @@ function startGame() {
     score = 0;
     avaiableQuestions = [...questions];
     getNewQuestion();
-};
+}
 
 
 /**
@@ -92,7 +92,7 @@ function getNewQuestion() {
 
     acceptingAnswers = true;
 
-};
+}
 
 
 //Event listener to click in options - apply class correct/incorrect to options.
@@ -135,7 +135,7 @@ options.forEach(option => {
 function increaseScore(num) {
     score += num;
     scoreText.innerText = score+"%";
-};
+}
 
 
 // --- Game Timer --- //
@@ -178,4 +178,4 @@ window.onload = function () {
         display = document.querySelector('#timer');
     startTimer(gameTime, display);
 
-};
+}

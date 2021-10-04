@@ -134,3 +134,42 @@
     }
 
 }
+
+@media (max-width: 320px) {
+    .options-container {
+        margin-bottom: 0.3rem;
+    }
+    
+    .option-prefix {
+        padding: 0.5rem 1rem;
+        border-bottom-left-radius: 2px;
+        border-top-left-radius: 2px;
+    }
+    
+    .option-text {
+        padding: 0.2rem;
+    }
+
+    #game-display h1 {
+        font-size: 0.8rem;
+    }
+    
+    #question {
+        font-size: large;
+        margin: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .options-container {
+        margin-bottom: 0.2rem;
+    }
+    
+    .option-prefix {
+        font-size: medium;
+    }
+    
+    .option-text {
+        font-size: medium;
+    }
+
+}

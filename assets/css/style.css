@@ -297,29 +297,29 @@ footer .footer-text span a:hover {
     }
     
     h1 {
-        font-size: 2.5rem;
+        font-size: 2.1rem;
     }
     
     h2 {
-        font-size: 1.5rem;
-        margin: 1.2rem;
+        font-size: 1.2rem;
+        margin: 1rem;
     }
 
     .btn {
-        font-size: 1.5rem;
+        font-size: 1rem;
         padding: 1rem 0;
-        width: 18rem;
+        width: 16rem;
     }
     
     #end .btn {
         font-size: 1rem;
         padding: 1rem 0;
-        width: 18rem;
+        width: 16rem;
         margin-bottom: 0.5rem;
     }
 
     .hero {
-        padding: 1.5rem;
+        padding: 1rem;
     }
 
     footer {
@@ -338,7 +338,7 @@ footer .footer-text span a:hover {
     }
 
     .best-score {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
 }

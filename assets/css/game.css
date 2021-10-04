@@ -78,3 +78,33 @@
         transform: rotate(360deg);
     }
 }
+
+@media (max-width: 1024px) {
+    .options-container {
+        margin-bottom: 0.5rem;
+    }
+    
+    .option-prefix {
+        padding: 1rem 2rem;
+        border-bottom-left-radius: 3px;
+        border-top-left-radius: 3px;
+    }
+    
+    .option-text {
+        padding: 1rem;
+    }
+
+    #game-display h1 {
+        color: black;
+        font-size: 1.5rem;
+    }
+
+
+}
+
+@media (max-width: 500px) {
+    #question {
+        font-size: 2rem;
+        margin: 1.5rem;
+    }
+}

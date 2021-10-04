@@ -174,7 +174,7 @@ function startTimer(duration, display) {
 
 //Adjust the Game Timer multiplying 60 sec * a number (this number will be the minutes that player has to finish the game)
 window.onload = function () {
-    let gameTime = 60 * 1,
+    let gameTime = 60 * 10,
         display = document.querySelector('#timer');
     startTimer(gameTime, display);
 

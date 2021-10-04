@@ -87,7 +87,7 @@ h2 {
     transform: none;
 }
 
-/* --- End Game Screen --- */
+/* --- Pass Game Screen --- */
 
 #end h1 {
     color: #263b4f;
@@ -272,6 +272,10 @@ footer .footer-text span a:hover {
         margin: 1.2rem;
     }
 
+    .hero {
+        padding: 2rem;
+    }
+
     .btn {
         font-size: 1.5rem;
         padding: 1rem 0;
@@ -283,6 +287,58 @@ footer .footer-text span a:hover {
         padding: 1rem 0;
         width: 20rem;
         margin-bottom: 0.5rem;
+    }
+
+}
+
+@media (max-width: 340px) {
+    h1, h2, h3, h4 {
+        margin-bottom: 0.2rem;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+        margin: 1.2rem;
+    }
+
+    .btn {
+        font-size: 1.5rem;
+        padding: 1rem 0;
+        width: 18rem;
+    }
+    
+    #end .btn {
+        font-size: 1rem;
+        padding: 1rem 0;
+        width: 18rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .hero {
+        padding: 1.5rem;
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+    
+    footer .footer-text span {
+        font-size: 14px;
+    }
+
+    input {
+        margin-bottom: 0.5rem;
+        width: 18rem;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .best-score {
+        font-size: 1.5rem;
     }
 
 }

@@ -108,3 +108,29 @@
         margin: 1.5rem;
     }
 }
+
+@media (max-width: 340px) {
+    .options-container {
+        margin-bottom: 0.3rem;
+    }
+    
+    .option-prefix {
+        padding: 0.5rem 1.5rem;
+        border-bottom-left-radius: 2px;
+        border-top-left-radius: 2px;
+    }
+    
+    .option-text {
+        padding: 0.5rem;
+    }
+
+    #game-display h1 {
+        font-size: 1rem;
+    }
+    
+    #question {
+        font-size: large;
+        margin: 1rem;
+    }
+
+}

@@ -201,22 +201,22 @@ The Project Structure is singularly simple and easy to understand I have separat
 
   **game.js** 
 
-  - **Score Points**
+  - **Score Points =>**
     To modify the score gained for each correct answer you can just modify the *const score_points = XX* where the XX will be the value of "points/score" gained for ech correct answer.
 
     <code>
     const score_points = XX;
     </code>
 
-  - **Max Questions**
+  - **Max Questions =>**
     If the user need change the maximum of question for each game go to the *const max_questions = X* and change the X for the number os maximum question that the game will have.
 
     <code>
     const max_questions = X;
     </code>
 
-  - **Timer**
-    To modify the timer for the game just go to the function below in this file and change the **XX** to a new number. This number will be where the timer start. Like if you insert 20 the timer will be 20 minutes and so.
+  - **Timer =>**
+    To modify the game timer go to the function below in this file and change the **XX** to a new number. This number is where the timer starts countdown. Like if you insert 20 the countdown will start in 20 minutes and so.
 
     <code>
     window.onload = function () {
@@ -226,8 +226,42 @@ The Project Structure is singularly simple and easy to understand I have separat
     };
     </cove>
 
+  - **Redirect =>**
+    This function will redirect the Players to designed page (`fail.html`) or (`pass.html`) as per their score. In the Scrum Master Quiz was set the minimum score of 85% as the SCRUM MASTER OFFICIAL test request this score to pass. Here the Developer can modify the Pass score to a number of their choice and this number will determine which page the player will be redirected to according to their score. Change the **XX** for a number/score of your choice.
 
+    <code>
+    function redirect() {
 
+    if (score > XX) {
+        localStorage.setItem("mostRecentScore", score);
+        return window.location.assign("./pass.html");
+    } else if (score < XX) {
+        return window.location.assign("./fail.html");
+    }
+
+    };
+    </code>
+
+- **HTML Files**
+
+  - **index.html =>**
+    The user can modify the page **title** to a better choice for their porpose modifying the title as image below.  
+
+  <br>
+
+  <h2 align="center"><img src="https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/structure/game-controllers/page-title.png"></h2>
+
+  <br>
+
+    Also the Hero Title (like Game Name) could be modifield as image below.
+
+  <br>
+
+  <h2 align="center"><img src="https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/structure/game-controllers/game-name.png"></h2>
+
+  <br>
+
+- **JSON File / Questions**
 
 
 

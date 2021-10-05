@@ -56,7 +56,7 @@ function redirect() {
     if (score > 10) {
         localStorage.setItem("mostRecentScore", score);
         return window.location.assign("./pass.html");
-    } else if (score <10) {
+    } else if (score < 10) {
         return window.location.assign("./fail.html");
     }
 

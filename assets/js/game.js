@@ -177,5 +177,4 @@ window.onload = function () {
     let gameTime = 60 * 10,
         display = document.querySelector('#timer');
     startTimer(gameTime, display);
-
-}
+};

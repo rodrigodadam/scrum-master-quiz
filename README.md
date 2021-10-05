@@ -120,6 +120,8 @@ To be User Friendly I've used the [Bootstrap Collor Pallete](https://colorswall.
 
 In all devices the game and the game display are positioned equal to avoid visual position problems. 
 
+To avoid user copy and past the questions *onmousedown* was used.
+
 <br>
 
 - **Fail Page** (`fail.html`)
@@ -158,6 +160,75 @@ The **input form** give the Player a chance to insert his/her name and Save it i
 <br>
 
 The page where users can see the Best Scores Payers played in that Broswer. This page also has 2 buttons **Challenge Youself** that will redirect the user to a [Game Page](https://rodrigodadam.github.io/scrum-master-quiz/game.html) and restart a new game or **Go Home** that will redirect the player to [Home Page](https://rodrigodadam.github.io/scrum-master-quiz/index.html). The same footer are used in Home Page was used in this page.
+
+<br>
+
+<div align="right"><a href="#top">🔝</a></div>
+
+<br>
+
+### Game Controllers
+
+This part of the README is for those who intend to use this project for purpose use and who would like to make superficial modifications or improve the project.
+
+<br>
+
+- **Project Structure** 
+
+<br>
+
+![Project Structure](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/structure/game-controllers/projectstructure.png)
+
+<br>
+
+The Project Structure is singularly simple and easy to understand I have separated the folders in a way that is auto-directional and that users who need to make changes can easily identify where to find the ones they need.
+
+- **Assets Folder**
+  
+  - **CSS Folder**
+
+  **#game.css** => All the CSS for (`game.html`) are in this file. To avoid mixing information with the crucial style details I created this file separated. In this folder the user can change all style to game page without modify the others pages style by mistake.
+
+  **#style.css** => The style of the other pages can be modified in this file.
+
+  - **Images Folder**
+
+  In this folder the user can insert all the images that he/she needs to implement to the project. 
+
+  - **JS Folder**
+
+  All the game controllers are here and can be modifield I'll present only the part of files that need be modifield by user to re-build the Quiz without broken the code.
+
+  **game.js** 
+
+  - **Score Points**
+    To modify the score gained for each correct answer you can just modify the *const score_points = XX* where the XX will be the value of "points/score" gained for ech correct answer.
+
+    <code>
+    const score_points = XX;
+    </code>
+
+  - **Max Questions**
+    If the user need change the maximum of question for each game go to the *const max_questions = X* and change the X for the number os maximum question that the game will have.
+
+    <code>
+    const max_questions = X;
+    </code>
+
+  - **Timer**
+    To modify the timer for the game just go to the function below in this file and change the **XX** to a new number. This number will be where the timer start. Like if you insert 20 the timer will be 20 minutes and so.
+
+    <code>
+    window.onload = function () {
+    let gameTime = 60 * XX,
+        display = document.querySelector('#timer');
+    startTimer(gameTime, display);
+    };
+    </cove>
+
+
+
+
 
 
 ### Wireframes

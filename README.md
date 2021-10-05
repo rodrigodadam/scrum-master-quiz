@@ -218,17 +218,19 @@ The Project Structure is singularly simple and easy to understand I have separat
   - **Timer =>**
     To modify the game timer go to the function below in this file and change the **XX** to a new number. This number is where the timer starts countdown. Like if you insert 20 the countdown will start in 20 minutes and so.
 
-    <code>
+    ```
     window.onload = function () {
     let gameTime = 60 * XX,
         display = document.querySelector('#timer');
     startTimer(gameTime, display);
-    };</cove>
+    };
 
+    ```
+    
   - **Redirect =>**
     This function will redirect the Players to designed page (`fail.html`) or (`pass.html`) as per their score. In the Scrum Master Quiz was set the minimum score of 85% as the SCRUM MASTER OFFICIAL test request this score to pass. Here the Developer can modify the Pass score to a number of their choice and this number will determine which page the player will be redirected to according to their score. Change the **XX** for a number/score of your choice.
 
-    <code>
+    ```
     function redirect() {
 
     if (score > XX) {
@@ -236,9 +238,9 @@ The Project Structure is singularly simple and easy to understand I have separat
         return window.location.assign("./pass.html");
     } else if (score < XX) {
         return window.location.assign("./fail.html");
-    }};</code>
+    }};
 
-    <br>
+    ```
 
 - **HTML Files**
 

@@ -24,7 +24,10 @@ Link to the web-application available [HERE.](https://rodrigodadam.github.io/scr
   * [Player Strategy Plan](#Player-Strategy-Plan)
   * [Developer Strategy Plan](#Developer-Strategy-Plan)
   * [Structure Plan](#Structure-Plan)
-  * [Front-End](#Structure)
+  * [Front-End](#Front-end)
+  * [Game Controllers](#Game-Controllers)
+  * [Wireframes](#Wireframes)
+  * [Design Plan](#Design-Plan)
 
 
 
@@ -79,9 +82,31 @@ The website consists in a **Home** page with **03 other pages** and **01 Pop-up*
 
 # DO TO
 
-- **Home Page** (`index.html`)<br>
-![Home Page](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/structure/design/homepage.png)<br>
+- **Home Page** (`index.html`)
 
+<br>
+
+![Home Page](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/structure/design/homepage.png)
+
+<br>
+
+The main page of the website. There is a game name, and 2 buttons. One is [Take a Quiz](https://rodrigodadam.github.io/scrum-master-quiz/game.html) that will start the quiz immediatly and the another one is [See Best Scores](https://rodrigodadam.github.io/scrum-master-quiz/best-scores.html) which will take the player to the page with the best scores played in that browser. Also there is a [Footer](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/structure/design/footer.png) with the simple informations about me that will take the player to my personal webpage.
+
+- **Game Page** (`game.html`)
+
+<br>
+
+![Game Page](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/structure/design/gamepage.png)
+
+<br>
+
+This panel is an User Friendly interface and is simple to use. 
+At the top the Player can see the [Game Display](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/structure/design/gamedisplay.png) where easy the User can track their Score, the Time remaning and how many questions was answered/remaining.
+At the midle the User can see the Properly Question follow below for 5 options to be answered and only one is correct.
+
+To be User Friendly I've used the [Bootstrap Collor Pallete](https://colorswall.com/palette/3) to show the players whem they select Correct as answers and Incorrect Answers. More info about the colors in [Design Plan](#Design-Plan)
+
+In all devices the game and the display are in the same positions to avoid visual position problems. 
 
 
 

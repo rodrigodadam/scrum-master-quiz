@@ -204,21 +204,23 @@ The Project Structure is singularly simple and easy to understand I have separat
   - **Score Points =>**
     To modify the score gained for each correct answer you can just modify the *const score_points = XX* where the XX will be the value of "points/score" gained for ech correct answer.
 
-    <code>
+    ```javascript
     const score_points = XX;
-    </code>
+
+    ```
 
   - **Max Questions =>**
     If the user need change the maximum of question for each game go to the *const max_questions = X* and change the X for the number os maximum question that the game will have.
 
-    <code>
+    ```javascript
     const max_questions = X;
-    </code>
+
+    ```
 
   - **Timer =>**
     To modify the game timer go to the function below in this file and change the **XX** to a new number. This number is where the timer starts countdown. Like if you insert 20 the countdown will start in 20 minutes and so.
 
-    ```
+    ```javascript
     window.onload = function () {
     let gameTime = 60 * XX,
         display = document.querySelector('#timer');
@@ -226,11 +228,11 @@ The Project Structure is singularly simple and easy to understand I have separat
     };
 
     ```
-    
+
   - **Redirect =>**
     This function will redirect the Players to designed page (`fail.html`) or (`pass.html`) as per their score. In the Scrum Master Quiz was set the minimum score of 85% as the SCRUM MASTER OFFICIAL test request this score to pass. Here the Developer can modify the Pass score to a number of their choice and this number will determine which page the player will be redirected to according to their score. Change the **XX** for a number/score of your choice.
 
-    ```
+    ```javascript
     function redirect() {
 
     if (score > XX) {
@@ -268,12 +270,31 @@ The Project Structure is singularly simple and easy to understand I have separat
 
   The User can Add as many question as need to this game. 
 
-  <br>
+  ```
+  [
+    {
+        "question": "Who is responsible for all estimates in the Product Backlog?",
+        "option1": "The Scrum Master",
+        "option2": "The Product Owner",
+        "option3": "The Scrum Team",
+        "option4": "The Development Team",
+        "option5": "The Product Owner and the Scrum Master",
+        "answer": 4
+    },
 
-  <h2 align="center"><img src="https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/structure/game-controllers/questions.png"></h2>
+    {
+        "question": "Who is responsible for the Product Backlog?",
+        "option1": "The Product Owner",
+        "option2": "The Scrum Master and The Development Team",
+        "option3": "The Scrum Team",
+        "option4": "The Development Team",
+        "option5": "The Product Owner and the Scrum Master",
+        "answer": 1
+    }
 
-  <br>
+  ]
 
+  ```
 
 ### Wireframes
 

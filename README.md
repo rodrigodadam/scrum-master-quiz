@@ -69,7 +69,7 @@ To who would like to biuld a Quiz web-application, this project was build in the
 
 <div align="right"><a href="#top">🔝</a></div>
 
-## Structure Plane
+## Structure Plan
 
 ### Front-end
 
@@ -80,7 +80,7 @@ The website consists in a **Home** page with **03 other pages** and **01 Pop-up*
 # DO TO
 
 - **Home Page** (`index.html`)<br>
-![image](https://i.postimg.cc/0j4LjqjC/homepage.png)<br>
+![image](https://github.com/rodrigodadam/scrum-master-quiz/blob/master/assets/images/structure/design/homepage.png)<br>
 
 
 

@@ -21,7 +21,10 @@ Link to the web-application available [HERE.](https://rodrigodadam.github.io/scr
 - [UX]()
   * [Project Goals](#Project-Goals)
   * [Users Experience Plan](#User-Experience-Plan)
-  * [Strategy Plane](#Strategy-Plane)
+  * [Player Strategy Plan](#Player-Strategy-Plan)
+  * [Developer Strategy Plan](#Developer-Strategy-Plan)
+  * [Structure Plan](#Structure-Plan)
+  * [Front-End](#Structure)
 
 
 
@@ -53,15 +56,35 @@ The Second Goal of this project is help Web and Software Developers who are look
 ## Users Experience Plan
 
 
-### Strategy Plane
+- ### Player Strategy Plan
 
 The website is designed for the people who would like test the knowledge about SCRUM MASTER also could play with friends. It's a great tool for increase the user understanding about the certification test and what he can wait. The web-application was build to be ease to use, the Player just need go to [web-site](https://rodrigodadam.github.io/scrum-master-quiz/) and start to play. After finish the game or the time is out the player can Try Again, if do not pass or put you Name in the Best Scores History that will be storage on local storage.
 
 
 <div align="right"><a href="#top">🔝</a></div>
 
+- ### Developer Strategy Plan
 
-### Structure Plane
+To who would like to biuld a Quiz web-application, this project was build in the way that the Developer User can simple modify the questions on a JSON.file and use all the structure for his own objective. Also the project is structured in a way that is easy to access and understand to make the necessary changes in the Design and in the Game Controllers.
+
+<div align="right"><a href="#top">🔝</a></div>
+
+## Structure Plane
+
+### Front-end
+
+The website consists in a **Home** page with **03 other pages** and **01 Pop-up**
+
+- **Welcome Pop Up**
+
+# DO TO
+
+- **Home Page** (`index.html`)<br>
+![image](https://i.postimg.cc/0j4LjqjC/homepage.png)<br>
+
+
+
+
 
 
 ### Wireframes

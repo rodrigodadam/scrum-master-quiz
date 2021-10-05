@@ -147,7 +147,15 @@ This page has an **input form** and 3 buttons:
 The **input form** give the Player a chance to insert his/her name and Save it in the [Best Scores](https://rodrigodadam.github.io/scrum-master-quiz/best-scores.html). The **Save** button is blocked and only will be avaiable if the Player insert someting in the **input form**. Also the page has 2 more buttons **Play Again** that will redirect the user to a [Game Page](https://rodrigodadam.github.io/scrum-master-quiz/game.html) and restart a new game or **Home** that will redirect the player to [Home Page](https://rodrigodadam.github.io/scrum-master-quiz/index.html).
 
 
+<br>
 
+- **Best Scores Page** (`best-scores.html`)
+
+<br>
+
+![Pass Page](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/structure/design/bestscores.png)
+
+<br>
 
 
 

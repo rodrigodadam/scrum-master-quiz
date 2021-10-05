@@ -80,7 +80,7 @@ The website consists in a **Home** page with **03 other pages** and **01 Pop-up*
 # DO TO
 
 - **Home Page** (`index.html`)<br>
-![image](https://github.com/rodrigodadam/scrum-master-quiz/blob/master/assets/images/structure/design/homepage.png)<br>
+![Home Page](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/structure/design/homepage.png)<br>
 
 
 

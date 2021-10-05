@@ -237,9 +237,7 @@ The Project Structure is singularly simple and easy to understand I have separat
         return window.location.assign("./pass.html");
     } else if (score < XX) {
         return window.location.assign("./fail.html");
-    }
-
-    };
+    }};
     </code>
 
 - **HTML Files**

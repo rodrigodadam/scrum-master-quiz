@@ -153,12 +153,11 @@ The **input form** give the Player a chance to insert his/her name and Save it i
 
 <br>
 
-![Pass Page](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/structure/design/bestscores.png)
+![Best Scores Page](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/structure/design/bestscores.png)
 
 <br>
 
-
-
+The page where users can see the Best Scores Payers played in that Broswer. This page also has 2 buttons **Challenge Youself** that will redirect the user to a [Game Page](https://rodrigodadam.github.io/scrum-master-quiz/game.html) and restart a new game or **Go Home** that will redirect the player to [Home Page](https://rodrigodadam.github.io/scrum-master-quiz/index.html). The same footer are used in Home Page was used in this page.
 
 
 ### Wireframes

@@ -55,7 +55,7 @@ The Second Goal of this project is help Web and Software Developers who are look
 
 ### Strategy Plane
 
-The website is designed for the people who would like test the knowledge about SCRUM MASTER also could play with friends on same computer. It's a great tool for increase the user understanding about the certification test and what he can wait. The web-application was build to be ease to use, the Player just need go to [web-site](https://rodrigodadam.github.io/scrum-master-quiz/) and start to play. After finish the game or the time is out the player can Try Again, if do not pass or put you Name in the Best Scores History that will be storage on local storage.
+The website is designed for the people who would like test the knowledge about SCRUM MASTER also could play with friends. It's a great tool for increase the user understanding about the certification test and what he can wait. The web-application was build to be ease to use, the Player just need go to [web-site](https://rodrigodadam.github.io/scrum-master-quiz/) and start to play. After finish the game or the time is out the player can Try Again, if do not pass or put you Name in the Best Scores History that will be storage on local storage.
 
 
 <div align="right"><a href="#top">🔝</a></div>

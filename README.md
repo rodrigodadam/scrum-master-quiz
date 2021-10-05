@@ -1,3 +1,5 @@
+# IN PROGRESS
+
 <div align="center">
 <h1>Scrum Master Quiz</h1>
 </div>
@@ -20,7 +22,7 @@ Link to the web-application available [HERE.](https://rodrigodadam.github.io/scr
 
 - [UX]()
   * [Project Goals](#Project-Goals)
-  * [Users Experience Plan](#User-Experience-Plan)
+  * [Users Experience Plan](#Users-Experience-Plan)
   * [Player Strategy Plan](#Player-Strategy-Plan)
   * [Developer Strategy Plan](#Developer-Strategy-Plan)
   * [Structure Plan](#Structure-Plan)
@@ -78,9 +80,15 @@ To who would like to biuld a Quiz web-application, this project was build in the
 
 The website consists in a **Home** page with **03 other pages** and **01 Pop-up**
 
+<br>
+
 - **Welcome Pop Up**
 
+<br>
+
 # DO TO
+
+<br>
 
 - **Home Page** (`index.html`)
 
@@ -91,6 +99,8 @@ The website consists in a **Home** page with **03 other pages** and **01 Pop-up*
 <br>
 
 The main page of the website. There is a game name, and 2 buttons. One is [Take a Quiz](https://rodrigodadam.github.io/scrum-master-quiz/game.html) that will start the quiz immediatly and the another one is [See Best Scores](https://rodrigodadam.github.io/scrum-master-quiz/best-scores.html) which will take the player to the page with the best scores played in that browser. Also there is a [Footer](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/structure/design/footer.png) with the simple informations about me that will take the player to my personal webpage.
+
+<br>
 
 - **Game Page** (`game.html`)
 
@@ -104,11 +114,21 @@ This panel is an User Friendly interface and is simple to use.
 At the top the Player can see the [Game Display](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/structure/design/gamedisplay.png) where easy the User can track their Score, the Time remaning and how many questions was answered/remaining.
 At the midle the User can see the Properly Question follow below for 5 options to be answered and only one is correct.
 
+When the player select an option that answer will change the color for a brief time to give time to player see if the options is correct or incorrect. To correct option the user will see the answer turn yo green to incorrect will turn to red. Also for each correct answer the player score will be increased.
+
 To be User Friendly I've used the [Bootstrap Collor Pallete](https://colorswall.com/palette/3) to show the players whem they select Correct as answers and Incorrect Answers. More info about the colors in [Design Plan](#Design-Plan)
 
 In all devices the game and the display are in the same positions to avoid visual position problems. 
 
+<br>
 
+- **Fail Page** (`fail.html`)
+
+<br>
+
+![Game Page](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/structure/design/gamepage.png)
+
+<br>
 
 
 

@@ -240,6 +240,8 @@ The Project Structure is singularly simple and easy to understand I have separat
     }};
     </code>
 
+    <br>
+
 - **HTML Files**
 
   - **index.html =>**
@@ -261,6 +263,35 @@ The Project Structure is singularly simple and easy to understand I have separat
 
 - **JSON File / Questions**
 
+  All the questions could be implemented in this file as example below.
+  This is a **JSON file** and to follow the project gides the user need a Questions, 5 Options and insert the correct at the ("answer": X) the user need  to replace the X for the correct option. As the 1st example the correct answer is the option 4, so the answer number is 4.
+
+  The User can Add as many question as need to this game. 
+
+  <code>
+  [
+    {
+        "question": "Who is responsible for all estimates in the Product Backlog?",
+        "option1": "The Scrum Master",
+        "option2": "The Product Owner",
+        "option3": "The Scrum Team",
+        "option4": "The Development Team",
+        "option5": "The Product Owner and the Scrum Master",
+        "answer": 4
+    },
+
+    {
+        "question": "Who is responsible for the Product Backlog?",
+        "option1": "The Product Owner",
+        "option2": "The Scrum Master and The Development Team",
+        "option3": "The Scrum Team",
+        "option4": "The Development Team",
+        "option5": "The Product Owner and the Scrum Master",
+        "answer": 1
+    }
+
+  ]
+  </code>
 
 
 ### Wireframes

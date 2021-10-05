@@ -223,8 +223,7 @@ The Project Structure is singularly simple and easy to understand I have separat
     let gameTime = 60 * XX,
         display = document.querySelector('#timer');
     startTimer(gameTime, display);
-    };
-    </cove>
+    };</cove>
 
   - **Redirect =>**
     This function will redirect the Players to designed page (`fail.html`) or (`pass.html`) as per their score. In the Scrum Master Quiz was set the minimum score of 85% as the SCRUM MASTER OFFICIAL test request this score to pass. Here the Developer can modify the Pass score to a number of their choice and this number will determine which page the player will be redirected to according to their score. Change the **XX** for a number/score of your choice.
@@ -237,8 +236,7 @@ The Project Structure is singularly simple and easy to understand I have separat
         return window.location.assign("./pass.html");
     } else if (score < XX) {
         return window.location.assign("./fail.html");
-    }};
-    </code>
+    }};</code>
 
     <br>
 
@@ -268,30 +266,11 @@ The Project Structure is singularly simple and easy to understand I have separat
 
   The User can Add as many question as need to this game. 
 
-  <code>
-  [
-    {
-        "question": "Who is responsible for all estimates in the Product Backlog?",
-        "option1": "The Scrum Master",
-        "option2": "The Product Owner",
-        "option3": "The Scrum Team",
-        "option4": "The Development Team",
-        "option5": "The Product Owner and the Scrum Master",
-        "answer": 4
-    },
+  <br>
 
-    {
-        "question": "Who is responsible for the Product Backlog?",
-        "option1": "The Product Owner",
-        "option2": "The Scrum Master and The Development Team",
-        "option3": "The Scrum Team",
-        "option4": "The Development Team",
-        "option5": "The Product Owner and the Scrum Master",
-        "answer": 1
-    }
+  <h2 align="center"><img src="https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/structure/game-controllers/questions.png"></h2>
 
-  ]
-  </code>
+  <br>
 
 
 ### Wireframes

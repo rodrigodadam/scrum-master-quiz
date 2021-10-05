@@ -118,7 +118,7 @@ When the player select an option that answer will change the color for a brief t
 
 To be User Friendly I've used the [Bootstrap Collor Pallete](https://colorswall.com/palette/3) to show the players whem they select Correct as answers and Incorrect Answers. More info about the colors in [Design Plan](#Design-Plan)
 
-In all devices the game and the display are in the same positions to avoid visual position problems. 
+In all devices the game and the game display are positioned equal to avoid visual position problems. 
 
 <br>
 
@@ -126,9 +126,30 @@ In all devices the game and the display are in the same positions to avoid visua
 
 <br>
 
-![Game Page](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/structure/design/gamepage.png)
+![Fail Page](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/structure/design/failpage.png)
 
 <br>
+
+All players that did not reach a minimum 85% of score or more will be redirect to this page. Where they have 2 options. **Try Again** Will be redirect the user to a [Game Page](https://rodrigodadam.github.io/scrum-master-quiz/game.html) and restart a new game or **Go Home** that will redirect the player to [Home Page](https://rodrigodadam.github.io/scrum-master-quiz/index.html).
+
+<br>
+
+- **Pass Page** (`pass.html`)
+
+<br>
+
+![Pass Page](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/structure/design/passpage.png)
+
+<br>
+
+All players that reach 85% of score or more  will be redirect to this page. This page has a objective to give the player a opportunity to Play with someone else on same Broswer and check who will bet more score or just challenge themselves and register the name in a Local Storage.
+This page has an **input form** and 3 buttons:
+The **input form** give the Player a chance to insert his/her name and Save it in the [Best Scores](https://rodrigodadam.github.io/scrum-master-quiz/best-scores.html). The **Save** button is blocked and only will be avaiable if the Player insert someting in the **input form**. Also the page has 2 more buttons **Play Again** that will redirect the user to a [Game Page](https://rodrigodadam.github.io/scrum-master-quiz/game.html) and restart a new game or **Home** that will redirect the player to [Home Page](https://rodrigodadam.github.io/scrum-master-quiz/index.html).
+
+
+
+
+
 
 
 

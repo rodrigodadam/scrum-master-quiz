@@ -1,5 +1,3 @@
-
-
 <div align="center">
 <h1>Scrum Master Quiz</h1>
 </div>
@@ -21,6 +19,10 @@ Link to the web-application available [HERE.](https://rodrigodadam.github.io/scr
 # Table of Contents
 
 - [UX]()
+  * [Project Goals](#Project-Goals)
+  * [Users Experience Plan](#User-Experience-Plan)
+  * [Strategy Plane](#Strategy-Plane)
+
 
 
 - [Features](#Features)
@@ -40,16 +42,23 @@ Link to the web-application available [HERE.](https://rodrigodadam.github.io/scr
 - [Credits](#Credits)
 
 
-## WHO'S THIS WEBSITE FOR
- 
+## Project Goals
 
-## User Experience
+Every day a lot of IT companies and also non IT companies are starting using the Agile Principles and one of the greatest Agile framework is SCRUM. 
+We can see in some recruiters web-site, like Indeed or LinkkedIN a increase a demand for these professionals and every day more people are looking for SCRUM MASTER Certification. This Project Main Goal is help these people who are looking for the SCRUM MASTER Certification giving them a small test to check their knowledge about the Scrum Master and how this works. As I'm a Certifield Scrum Master, I created the questions based in the [SCRUM GUIDE](https://www.scrum.org/resources/scrum-guide). 
+
+The Second Goal of this project is help Web and Software Developers who are looking how build a simple quiz. This Web-Application was built in a way that anyone can only modify the questions and answers and thus have your quiz with a particular subject that suits your porpose.  
+
+
+## Users Experience Plan
+
 
 ### Strategy Plane
 
+The website is designed for the people who would like test the knowledge about SCRUM MASTER also could play with friends on same computer. It's a great tool for increase the user understanding about the certification test and what he can wait. The web-application was build to be ease to use, the Player just need go to [web-site](https://rodrigodadam.github.io/scrum-master-quiz/) and start to play. After finish the game or the time is out the player can Try Again, if do not pass or put you Name in the Best Scores History that will be storage on local storage.
 
 
-  <div align="right"><a href="#top">🔝</a></div>
+<div align="right"><a href="#top">🔝</a></div>
 
 
 ### Structure Plane

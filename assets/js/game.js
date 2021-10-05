@@ -27,7 +27,7 @@ fetch("./questions.json").then(res => {
 });
 
 
-const score_points = 5;
+const score_points = 20;
 const max_questions = 5;
 
 

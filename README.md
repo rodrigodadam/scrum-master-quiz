@@ -270,7 +270,7 @@ The Project Structure is singularly simple and easy to understand I have separat
 
   The User can Add as many question as need to this game. 
 
-  ```
+  ```json
   [
     {
         "question": "Who is responsible for all estimates in the Product Backlog?",

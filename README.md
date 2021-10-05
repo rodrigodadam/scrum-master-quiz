@@ -296,12 +296,53 @@ The Project Structure is singularly simple and easy to understand I have separat
 
   ```
 
+<div align="right"><a href="#top">🔝</a></div>
+
 ### Wireframes
+
+
+# TO INCLUDE
 
 
 ### Design
 
 
+- **Colors**
+
+Inspired in the [scrum.org](https://www.scrum.org/), The 3 Main colors are:
+
+Catskill White (#EEF6F7) used as background color is nn all background pages to be clean and do not disturb the Player with High Tones. 
+Dark Blue Grey (#1F3B4D) used in the moust of text the colors. 
+Eastern Blue (#1E9AB0) used in all buttons.
+
+This colors create an harmonic design and that has a great inspiration on the official website to make the official SCRUM MASTER certification.
+
+![Color Pallet](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/structure/design/maincolors.png)
+
+
+On the **Game Page** I used the [Bootstrap 4 Collor Pallete](https://colorswall.com/palette/3) to show the Player if the selected answer was correct or incorrect. The color used are (#5CB85C) to Correct answers used in Bootstrat 4 in a Sucess Buttons and (#D9534F) to Incorrect answers used in Bootstrap 4 to Danger Buttons. As example below.
+
+<div align="center">
+
+<br>
+
+<h2 align="center"> Example Correct Answer</h2>
+
+<br>
+
+![Correct](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/structure/design/correct.png)
+
+<br>
+
+<h2 align="center"> Example Incorrect Answer</h2>
+
+<br>
+
+![Incorrect](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/structure/design/incorrect.png)
+
+<br>
+
+</div>
 
 <div align="right"><a href="#top">🔝</a></div>
 

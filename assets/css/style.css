@@ -9,7 +9,7 @@
 }
 
 :root {
-    background-color: #EFF5F8;
+    background-color: #EEF6F7;
     font-size: medium;
 }
 
@@ -33,7 +33,7 @@ h1 {
 
 h2 {
     font-size: 3rem;
-    color: #263b4f;
+    color: #1F3B4D;
     text-align: center;
     margin: 1.5rem;
 }
@@ -70,13 +70,13 @@ h2 {
     text-align: center;
     margin-bottom: 1rem;
     color: white;
-    background-color: #31A1B9;
+    background-color: #1E9AB0;
     border-radius: 5px;
 }
 
 .btn:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.5rem 0 #31A1B9;
+    box-shadow: 0 0.4rem 1.5rem 0 #1E9AB0;
     transform: translate(-0.2rem);
     transition: transform 150ms;
 }
@@ -90,7 +90,7 @@ h2 {
 /* --- Pass Game Screen --- */
 
 #end h1 {
-    color: #263b4f;
+    color: #1F3B4D;
 }
 
 form {
@@ -106,7 +106,7 @@ input {
     padding: 1.5rem;
     font-size: 2rem;
     border: none;
-    box-shadow: 0 0.2rem 1rem 0 #31A1B9;
+    box-shadow: 0 0.2rem 1rem 0 #1E9AB0;
 }
 
 input::placeholder {
@@ -123,7 +123,7 @@ input::placeholder {
 
 
 #bestScores h1 {
-    color: #263b4f;
+    color: #1F3B4D;
 }
 
 #bestScoresList {
@@ -147,11 +147,11 @@ input::placeholder {
 /* --- No Pass Page --- */
 
 #noPassDiv h1 {
-    color: #263b4f;
+    color: #1F3B4D;
 }
 
 #noPassDiv h2 {
-    color: #263b4f;
+    color: #1F3B4D;
     text-decoration: underline;
 }
 
@@ -160,8 +160,8 @@ input::placeholder {
 #loader {
     border: 2rem white;
     border-radius: 50%;
-    border-top: 2rem #31A1B9;
-    border-bottom: 2rem #31A1B9;
+    border-top: 2rem #1E9AB0;
+    border-bottom: 2rem #1E9AB0;
     width: 12rem;
     height: 12rem;
     animation: spin 1.5s linear infinite;
@@ -179,7 +179,7 @@ input::placeholder {
 /* --- Start Footer --- */
 
 footer {
-    background: #31A1B9;
+    background: #1E9AB0;
     padding: 20px 0;
     text-align: center;
     width: 100%;

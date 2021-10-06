@@ -344,6 +344,14 @@ On the **Game Page** I used the [Bootstrap 4 Collor Pallete](https://colorswall.
 
 </div>
 
+<br>
+
+- **Typography**
+
+For the Game Name I used **Roboto Slab**, Designed by [Christian Robertson](https://fonts.google.com/?query=Christian+Robertson), also used for all (H1) and normal text.
+For (H2) was used **Open Sans**.
+[From Google Fonts](https://fonts.google.com/)
+
 <div align="right"><a href="#top">🔝</a></div>
 
 

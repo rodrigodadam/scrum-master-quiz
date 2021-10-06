@@ -419,6 +419,14 @@ This project is well-structured to work efficiently and be modifield as needed.
 
 ## PROJECT BARRIERS & SOLUTIONS
 
+- **Questions Storage**
+
+This was defenitly the big issue that I had during the project. Initially I inserted the questions together in (`game.js`) file as a variable. However, as I would like to make the project cleaner and easier to understand, I had to find new solutions for storing the questions and not mixing it Questions with the Functions to avoid future problems. The first solutions that I try was create a new JS file named (`questions.js`) and I migrated all the questions from (`game.js`) to (`questions.js`) creating a unique place to store the questions. I used (`modules`) to import the questions from (`questions.js`) to (`game.js`) and work perfect. But I was not satisfied with another JS file. So I decided to implement a JSON file with all questions and create a (`questions.json`) and again transfering all questions from (`questions.js`) to (`questions.json`). 
+I chose to use JSON because the syntax is very easy to use also JSON uses less data overall, so I reduce the cost and increase the parsing speed and the structure is straightforward and readable.
+
+- **Minimal Security Against Cheating**
+
+
 
 
 
@@ -463,17 +471,14 @@ for your own idea. - Definition from [Github Docs](https://docs.github.com/en/fr
 
 — **HTML5** —
 
-- [Materialize](materializecss.com/) for navigation bar, input forms, card displays, modals and dropdown menus.
 
 
 — **CSS3** —
 
-- [Materialize Classes and colours](materializecss.com/) for styling.
 
 
 — **JavaScript** —
 
-- [Spotify Web Playback SDK](https://developer.spotify.com/documentation/web-playback-sdk/quick-start/) client-side JavaScript library which allows you to create a new player in Spotify Connect and play any audio track from Spotify in the browser via Encrypted Media Extensions.
 
 
 

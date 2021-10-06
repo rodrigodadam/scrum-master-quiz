@@ -359,6 +359,22 @@ For (H2) was used **Open Sans**.
 
 ### Existing Features
 
+This project is well-structured to work efficiently and be modifield as needed.
+
+- Create with **HTML5**, **CSS3** and **JavaScript**
+- It consists of 1 base html file and 4 other html files
+- Welcome Pop-Up
+- For Players:
+  1. Just OPEN AND PLAY, User Friendly designed to be easy to play the game
+- For Developers Only:
+  1. Weel designed and structured to be easy to modify the game for new porposes
+  1. All questions are in a JSON file
+
+### Features Left To Implement
+
+- Pop-up before Start the Game to insert the Player Name before games start
+- Block right click in all pages
+- Use a Host DB to prevent players cheat the game score
 
 <div align="right"><a href="#top">🔝</a></div>
 
@@ -389,12 +405,15 @@ For (H2) was used **Open Sans**.
 
 - [ImageResizer](https://imageresizer.com/)
 - [PostImages](https://postimages.org/)
-- [Online Palette](https://www.onlinepalette.com/spotify/)
+- [Canva](https://www.canva.com/)
+- [Balsamiq](https://balsamiq.com/)
+- [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp)
+- [Arty Click](https://colors.artyclick.com/)
 - [AMI Website Mockup Generator](http://ami.responsivedesign.is/)
-- [W3C Markup Validation Service](https://validator.w3.org/) for testing HTML code
-- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) for testing CSS code
-- [Jshint](https://jshint.com/) for testing JavaScript code
-- [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) for testing, style checking and debugging
+- [W3C Markup Validation Service](https://validator.w3.org/)
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+- [Jshint](https://jshint.com/)
+- [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
 
 <div align="right"><a href="#top">🔝</a></div>
 

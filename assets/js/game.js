@@ -166,7 +166,7 @@ function startTimer(duration, display) {
             //If the timer is over the player will be redirect to another page according to their score
             redirect();
         }
-    };
+    }
     //Do not wait a full second before the timer starts
     timer();
     setInterval(timer, 1000);

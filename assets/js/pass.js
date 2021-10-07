@@ -38,5 +38,5 @@ function savePassScore(e) {
 
     window.location.assign("./index.html");
 
-};
+}
 

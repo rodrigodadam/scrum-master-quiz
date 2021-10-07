@@ -434,9 +434,19 @@ I chose to use JSON because the syntax is very easy to use also JSON uses less d
 
 - **Minimal Security Against Cheating**
 
+# TO DO
 
+### Test Strategy
 
+Testing is required on all features and user stories documented in this README. All clickable links must redirect to the correct pages. 
 
+ - HTML Code must pass through the W3C HTML Validator.
+
+ - CSS Code must pass through the W3C CSS Validator.
+
+ - JavaScript code must pass through the JSHint Validator.
+
+- **Full test results can be found [here](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/tests.me)**
 
 ## Deployment
 

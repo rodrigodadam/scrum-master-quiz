@@ -1,5 +1,5 @@
 # IN PROGRESS
-### The project have only 5 tests questions for moment. Also need adjust some functions for the game.
+
 
 <div align="center">
 <h1>Scrum Master Quiz</h1>
@@ -61,8 +61,6 @@ The Second Goal of this project is help Web and Software Developers who are look
 
 The website is designed for the people who would like test the knowledge about SCRUM MASTER also could play with friends. It's a great tool for increase the user understanding about the certification test and what he can wait. The web-application was build to be ease to use, the Player just need go to [web-site](https://rodrigodadam.github.io/scrum-master-quiz/) and start to play. After finish the game or the time is out the player can Try Again, if do not pass or put you Name in the Best Scores History that will be storage on local storage.
 
-
-<div align="right"><a href="#top">🔝</a></div>
 
 - ### Developer Strategy Plan
 
@@ -172,9 +170,11 @@ This part of the README is for those who intend to use this project for purpose 
 - **Project Structure** 
 
 <br>
+<div align="center">
 
 ![Project Structure](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/structure/game-controllers/projectstructure.png)
 
+</div>
 <br>
 
 The Project Structure is singularly simple and easy to understand I have separated the folders in a way that is auto-directional and that users who need to make changes can easily identify where to find the ones they need.
@@ -195,7 +195,7 @@ The Project Structure is singularly simple and easy to understand I have separat
 
   All the game controllers are here and can be modifield I'll present only the part of files that need be modifield by user to re-build the Quiz without broken the code.
 
-  **game.js** 
+  - **game.js** 
 
   - **Score Points =>**
     To modify the score gained for each correct answer you can just modify the *const score_points = XX* where the XX will be the value of "points/score" gained for ech correct answer.
@@ -300,7 +300,7 @@ The Project Structure is singularly simple and easy to understand I have separat
 # TO INCLUDE
 
 
-### Design
+### Design Plan
 
 
 - **Colors**
@@ -313,8 +313,11 @@ Eastern Blue (#1E9AB0) used in all buttons.
 
 This colors create an harmonic design and that has a great inspiration on the official website to make the official SCRUM MASTER certification.
 
+<div align="center">
+
 ![Color Pallet](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/structure/design/maincolors.png)
 
+</div>
 
 On the **Game Page** I used the [Bootstrap 4 Collor Pallete](https://colorswall.com/palette/3) to show the Player if the selected answer was correct or incorrect. The color used are (#5CB85C) to Correct answers used in Bootstrat 4 in a Sucess Buttons and (#D9534F) to Incorrect answers used in Bootstrap 4 to Danger Buttons. As example below.
 
@@ -363,12 +366,12 @@ This project is well-structured to work efficiently and be modifield as needed.
 - For Players:
   1. Just OPEN AND PLAY, User Friendly designed to be easy to play the game
 - For Developers Only:
-  1. Weel designed and structured to be easy to modify the game for new porposes
+  1. Well designed and structured to be easy to modify the game for new porposes
   1. All questions are in a JSON file
 
 ### Features Left To Implement
 
-- Pop-up before Start the Game to insert the Player Name before games start
+- Pop-up before Start the Game to insert the Player Name before game starts
 - Block right click in all pages
 - Use a Host DB to prevent players cheat the game score
 
@@ -390,7 +393,7 @@ This project is well-structured to work efficiently and be modifield as needed.
 
   <br>
 
-  [Jira](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/jira.png)
+  ![Jira](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/jira.png)
 
   <br>
 

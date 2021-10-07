@@ -440,13 +440,13 @@ I chose to use JSON because the syntax is very easy to use also JSON uses less d
 
 Testing is required on all features and user stories documented in this README. All clickable links must redirect to the correct pages. 
 
- - HTML Code must pass through the W3C HTML Validator.
+ - HTML Code must pass through the [W3C HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Frodrigodadam.github.io%2Fscrum-master-quiz%2F)
 
- - CSS Code must pass through the W3C CSS Validator.
+ - CSS Code must pass through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frodrigodadam.github.io%2Fscrum-master-quiz%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=pt-BR)
 
- - JavaScript code must pass through the JSHint Validator.
+ - JavaScript code must pass through the [JSHint Validator](https://jshint.com/)
 
-- **Full test results can be found [here](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/tests.me)**
+- **Full test results can be found [here](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/tests.md)**
 
 ## Deployment
 

@@ -475,20 +475,17 @@ for your own idea. - Definition from [Github Docs](https://docs.github.com/en/fr
 
 ## CREDITS
 
-### Code
+— **Media** —
 
-— **HTML5** —
+  - PSMI Logo used in this Readme file are owned by me from [srummaster.org](https://www.scrum.org/) on 12 August 2021. [see credencial here](https://www.credly.com/badges/9f29f9a5-1371-424b-8451-4cecca9cb1f3/linked_in) 
+  - The other images presented in this readme are all owned by Rodrigo Dadam
+  - All icons are used from [Font Awesome](https://fontawesome.com/)
+  - Collor Pallete are inspired by [scrummaster.org](https://www.scrum.org/)
 
+— **Researches** —
 
-
-— **CSS3** —
-
-
-
-— **JavaScript** —
-
-
-
+  - I used W3Shools and Devdocs to help me with some HTML and CSS informations/Documentation
+  - Also to fix some bugs that I do not found inside documentation I used the Comunity Stackoverflow to help me with this bugs and Google.com
 
   <div align="right"><a href="#top">🔝</a></div>
 

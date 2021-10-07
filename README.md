@@ -1,4 +1,5 @@
 # IN PROGRESS
+### The project have only 5 tests questions for moment. Also need adjust some functions for the game.
 
 <div align="center">
 <h1>Scrum Master Quiz</h1>

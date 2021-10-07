@@ -33,20 +33,15 @@ Link to the web-application available [HERE.](https://rodrigodadam.github.io/scr
   * [Design Plan](#Design-Plan)
 
 
-
 - [Features](#Features)
-
 
 - [Technologies Used](#Technologies-Used)
 
 - [Resources](#Resources)
 
-
 - [Project Barriers & Solutions](#Project-Barriers-&-Solutions)
 
-
 - [Deployment](#Deployment)
-
 
 - [Credits](#Credits)
 
@@ -377,6 +372,7 @@ This project is well-structured to work efficiently and be modifield as needed.
 - Block right click in all pages
 - Use a Host DB to prevent players cheat the game score
 
+
 <div align="right"><a href="#top">🔝</a></div>
 
 ## TECHNOLOGIES USED
@@ -389,6 +385,14 @@ This project is well-structured to work efficiently and be modifield as needed.
 - [Gitpod](https://www.gitpod.io/) 
 - [Git](https://git-scm.com/) 
 - [GitHub](https://github.com/) 
+- [Jira Software](https://www.atlassian.com/software/jira) 
+  - **You can see the Project Board below**
+
+  <br>
+
+  [Jira](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/jira.png)
+
+  <br>
 
 <div align="right"><a href="#top">🔝</a></div>
 

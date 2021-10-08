@@ -22,7 +22,17 @@
 
     - **game.js**
 
-    ![JS Hint Validator game.js](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/validator)
+    There are 03 images to confirm the validator of this JS file.
+
+    ![JS Hint Validator game.js](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/gamejs01.png)
+
+    ![JS Hint Validator game.js](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/gamejs02.png)
+
+    ![JS Hint Validator game.js](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/gamejs03.png)
+
+    - **script.js**
+
+    ![JS Hint Validator script.js](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/)
 
 - **Lighthouse**
 

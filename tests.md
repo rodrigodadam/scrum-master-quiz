@@ -36,4 +36,4 @@
 
 - **Lighthouse**
 
-![JS Hint Validator]()
+![Lighthouse Validator](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/validator/lighthouse.png)

@@ -111,7 +111,7 @@ options.forEach(option => {
         let classToApply = "incorrect";
             if (selectedAnswer == currentQuestion.answer) {
                 classToApply = "correct";
-            };
+            }
 
             if (classToApply === "correct") {
                 increaseScore(score_points);
@@ -152,10 +152,10 @@ function startTimer(duration, display) {
         seconds;
     function timer() {
         // startTimer() was called
-        diff = duration - (((Date.now() - start) / 1000) | 0);
+        diff = duration - (((Date.now() - start) / 1000));
 
-        minutes = (diff / 60) | 0;
-        seconds = (diff % 60) | 0;
+        minutes = parseInt(diff / 60, 10);
+        seconds = parseInt(diff % 60, 10);
 
         minutes = minutes < 10 ? "0" + minutes : minutes;
         seconds = seconds < 10 ? "0" + seconds : seconds;
@@ -163,7 +163,7 @@ function startTimer(duration, display) {
         display.textContent = minutes + ":" + seconds; 
 
         if (diff <= 0) {
-            //If the timer is over the player will be redirect to another page according to their score
+            //If the timer over the player will be redirect to another page according to their score
             redirect();
         }
     }

@@ -267,6 +267,14 @@ footer .footer-text span a:hover {
     h1 {
         font-size: 3.5rem;
     }
+
+    #finalScore {
+        font-size: 3rem;
+    }
+
+    #h1Pass {
+        font-size: 2.2rem;
+    }
     
     h2 {
         font-size: 1.5rem;
@@ -299,6 +307,14 @@ footer .footer-text span a:hover {
     
     h1 {
         font-size: 2.1rem;
+    }
+
+    #h1Pass {
+        font-size: 1.9rem;
+    }
+
+    #finalScore {
+        font-size: 2.5rem;
     }
     
     h2 {

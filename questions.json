@@ -97,6 +97,56 @@
         "option4": "The Product Owner and all stakeholders",
         "option5": "The Developers",
         "answer": 2
+    },
+
+    {
+        "question": "What is the main reason for the Scrum Master to be at the Daily Scrum?",
+        "option1": "They do not have to be there; they only need to ensure the Developers have a Daily Scrum",
+        "option2": "To gather status and progress information to report to management",
+        "option3": "To write down any changes to the Sprint Backlog, including adding new items, and tracking progress on the burn-down",
+        "option4": "To make sure every team member answers the three questions",
+        "option5": "To make sure that the team members do not expire 15 minutes",
+        "answer": 1
+    },
+
+    {
+        "question": "The length of a Sprint should be:",
+        "option1": "Short enough to keep the business risk acceptable to the Product Owner",
+        "option2": "Short enough to be able to synchronize the development work with other business events",
+        "option3": "2 months",
+        "option4": "One month or less",
+        "option5": "Questions A, B and D are correct",
+        "answer": 5
+    },
+
+    {
+        "question": "Who creates the Definition of Done?",
+        "option1": "The Manager",
+        "option2": "The Product Owner since they are responsible for the product's success",
+        "option3": "If it is not an organizational standard, the Scrum Team must create a Definition of Done appropriate for the product",
+        "option4": "The Scrum Master since they are responsible for the productivity of the Developers",
+        "option5": "The Scrum Team, in a collaborative effort where the result is the common denominator of all members' definitions",
+        "answer": 3
+    },
+
+    {
+        "question": "What is the role of Management in Scrum?",
+        "option1": "Support the Product Owner with insights and information into high value product and system capabilities. Support the Scrum Master to cause organizational change that fosters empiricism, self-management, bottom-up intelligence, and intelligent product delivery",
+        "option2": "Identify and remove people that are not working hard enough",
+        "option3": "Continually monitor staffing levels of the Scrum Team",
+        "option4": "Monitor the progress of the Developers on the Scrum Team",
+        "option5": "Monitor all the team to check if the work is going well",
+        "answer": 1
+    },
+
+    {
+        "question": "Who should know the most about the progress toward a business objective or a release, and be able to explain the alternatives most clearly?",
+        "option1": "The Project Manager",
+        "option2": "The Scrum Master",
+        "option3": "The Developers",
+        "option4": "The Team Leader",
+        "option5": "The Product Owner",
+        "answer": 5
     }
 
 ]

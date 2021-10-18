@@ -234,6 +234,10 @@ footer .footer-text span a:hover {
 
 @media (max-width: 750px) {
 
+    #question {
+        font-size: 2rem;
+    }
+
     #h1Pass {
         font-size: 3.5rem;
     }
@@ -241,21 +245,25 @@ footer .footer-text span a:hover {
     #totalScore {
         font-size: 2.5rem;
     }
+
+    .option-text {
+        font-size: small;
+    }
 }
 
 
 @media (max-width: 646px) {
     h1, h2, h3, h4 {
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.3rem;
     }
     
     h1 {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
     
     h2 {
-        font-size: 2.5rem;
-        margin: 1.2rem;
+        font-size: 2rem;
+        margin: 1.1rem;
     }
 
     #h1Pass {
@@ -272,12 +280,16 @@ footer .footer-text span a:hover {
         font-size: 4rem;
     }
 
+    #question {
+        font-size: 1.5rem;
+    }
+
     #h1Pass {
         font-size: 2.3rem;
     }
     
     h2 {
-        font-size: 2.3rem;
+        font-size: 1.6rem;
         margin: 1.2rem;
     }
 

@@ -11,21 +11,21 @@
 
     {
         "question": "Who is responsible for the Product Backlog?",
-        "option1": "The Product Owner",
+        "option1": "The Product Owner and the Scrum Master",
         "option2": "The Scrum Master and The Development Team",
         "option3": "The Scrum Team",
         "option4": "The Development Team",
-        "option5": "The Product Owner and the Scrum Master",
-        "answer": 1
+        "option5": "The Product Owner",
+        "answer": 5
     },
 
     {
-        "question": "Who is responsible for the Product Backlog?",
-        "option1": "The Product Owner",
-        "option2": "The Scrum Master and The Development Team",
-        "option3": "The Scrum Team",
-        "option4": "The Development Team",
-        "option5": "The Product Owner and the Scrum Master",
+        "question": "The timebox for the Sprint Review is:",
+        "option1": "4 hours for a monthly Sprint. For shorter Sprints it is usually shorter.",
+        "option2": "1 day",
+        "option3": "As long as needed",
+        "option4": "2 hours",
+        "option5": "4 hours and longer as needed",
         "answer": 1
     },
 
@@ -40,13 +40,50 @@
     },
 
     {
-        "question": "Who is allowed to participate in the Daily Scrum?",
-        "option1": "The Key Stakeholders",
-        "option2": "The Scrum Master",
-        "option3": "The Development Team",
-        "option4": "The Product Owner",
-        "option5": "The Team Manager",
+        "question": "When does the next Sprint begin?",
+        "option1": "Next Monday",
+        "option2": "Immediately after the conclusion of the previous Sprint",
+        "option3": "Immediately following the next Sprint Planning",
+        "option4": "When the Product Owner is ready",
+        "option5": "Next Month",
+        "answer": 2
+    },
+
+    {
+        "question": "When is a Sprint over?",
+        "option1": "When the timebox expires",
+        "option2": "Immediately after the conclusion of the previous Sprint",
+        "option3": "When all the tasks are completed",
+        "option4": "When the Product Owner says it is done",
+        "option5": "When the Scrum Master says it is done",
+        "answer": 1
+    },
+
+    {
+        "question": "Which Scrum events are timeboxed?",
+        "option1": "Release Retrospective",
+        "option2": "Sprint Testing",
+        "option3": "Refinement",
+        "option4": "Sprint Retrospective",
+        "option5": "Sprint Testing",
+        "answer": 4
+    },
+
+    {
+        "question": "What is the recommended size for a Scrum Team?",
+        "option1": "7 plus or minus 2",
+        "option2": "9",
+        "option3": "Typically 10 or fewer people",
+        "option4": "15 or more",
+        "option5": "Minimum of 8",
         "answer": 3
+    },
+
+    {
+        "question": "The Scrum Team must choose at least one high priority process improvement item, identified during the Sprint Retrospective, and place it in the Sprint Backlog",
+        "option1": "True",
+        "option2": "False",
+        "answer": 2
     }
 
 ]

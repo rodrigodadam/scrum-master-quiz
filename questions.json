@@ -80,10 +80,24 @@
     },
 
     {
-        "question": "The Scrum Team must choose at least one high priority process improvement item, identified during the Sprint Retrospective, and place it in the Sprint Backlog",
-        "option1": "True",
-        "option2": "False",
+        "question": "What does it mean to say that an event has a timebox?",
+        "option1": "The event must take at least a minimum amount of time",
+        "option2": "The event must happen at a set time",
+        "option3": "The event has no time expiration",
+        "option4": "The event must happen by a given time",
+        "option5": "The event can take no more than a maximum amount of time",
+        "answer": 5
+    },
+
+    {
+        "question": "During a Sprint, a Developer determines that the Scrum Team will not be able to complete the items in their forecast. Who should be present to review and adjust the Product Backlog items selected?",
+        "option1": "The Scrum Master, the project manager, and the Developers",
+        "option2": "The Product Owner and the Developers",
+        "option3": "The Scrum Master",
+        "option4": "The Product Owner and all stakeholders",
+        "option5": "The Developers",
         "answer": 2
     }
 
 ]
+

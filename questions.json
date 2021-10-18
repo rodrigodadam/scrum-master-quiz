@@ -147,7 +147,58 @@
         "option4": "The Team Leader",
         "option5": "The Product Owner",
         "answer": 5
+    },
+
+    {
+        "question": "Who has the final say on the order of the Product Backlog?",
+        "option1": "The Project Manager",
+        "option2": "The Scrum Master",
+        "option3": "The Developers",
+        "option4": "The CEO",
+        "option5": "The Product Owner",
+        "answer": 5
+    },
+
+    {
+        "question": "The timebox for the Sprint Planning event is?",
+        "option1": "Whenever it is done",
+        "option2": "4 hours",
+        "option3": "8 hours for a monthly Sprint. For shorter Sprints it is usually shorter",
+        "option4": "Monthly",
+        "option5": "1 week",
+        "answer": 3
+    },
+
+    {
+        "question": "The three pillars of empiricism are:",
+        "option1": "Inspection, Transparency, Adaptation",
+        "option2": "Transparency, Eliminating Waste, Kaizen",
+        "option3": "Planning, Demonstration, Retrospective",
+        "option4": "Respect For People, Kaizen, Eliminating Waste",
+        "option5": "Planning, Inspection, Adaptation",
+        "answer": 1
+    },
+
+    {
+        "question": "When does a Developer become the sole owner of an item or task on the Sprint Backlog?",
+        "option1": "During the Daily Scrum",
+        "option2": "At the Sprint Planning event",
+        "option3": "Whenever a team member can accommodate more work",
+        "option4": "Never. All Sprint Backlog items are ''owned'' by the Developers on the Scrum Team",
+        "option5": "During the Sprint Review",
+        "answer": 4
+    },
+
+    {
+        "question": "When does a Developer become accountable for the value of a Product Backlog item selected for the Sprint?",
+        "option1": "During the Daily Scrum",
+        "option2": "At the Sprint Planning event",
+        "option3": "Never. The entire Scrum Team is accountable for creating value every Sprint.",
+        "option4": "Whenever a team member can accommodate more work",
+        "option5": "During the Sprint Review",
+        "answer": 3
     }
+
 
 ]
 

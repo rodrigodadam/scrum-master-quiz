@@ -66,9 +66,11 @@ h2 {
 
 /* --- PopUp --- */
 
+
+
 .popup {
     background-color: #ffffff;
-    width: 500px;
+    width: 800px;
     padding: 30px 40px;
     position: absolute;
     transform: translate(-50%,-50%);
@@ -86,7 +88,7 @@ h2 {
     line-height: 25px;
 }
 
-.popup a {
+.popup #popClose {
     display: block;
     width: 150px;
     position: relative;
@@ -97,6 +99,18 @@ h2 {
     text-decoration: none;
     padding: 5px 0;
 }
+
+.popup button {
+    display: block;
+    margin:  0 0 30px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #c5c5c5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
 
 
 /* --- Buttons --- */

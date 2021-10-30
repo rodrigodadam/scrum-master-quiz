@@ -64,6 +64,39 @@ h2 {
     align-items: center;
 }
 
+/* --- PopUp --- */
+
+.popup {
+    background-color: #ffffff;
+    width: 500px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    display: none;
+    text-align: center;
+}
+
+.popup p {
+    font-size: 18px;
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 25px;
+}
+
+.popup a {
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #0f72e5;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 0;
+}
 
 
 /* --- Buttons --- */

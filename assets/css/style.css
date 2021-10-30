@@ -79,6 +79,7 @@ h2 {
     border-radius: 8px;
     display: none;
     text-align: center;
+    box-shadow: rgba(0,0,0,0.7) 10px 10px 10px 10px;
 }
 
 .popup p {

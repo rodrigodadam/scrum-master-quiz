@@ -1,7 +1,7 @@
 window.addEventListener("load", function(){
     setTimeout(
         function open(event){
-            document.querySelector(".popup").style.display = "block";
+            document.querySelector(".overlay").style.display = "block";
         },
         1000
     )
@@ -9,9 +9,9 @@ window.addEventListener("load", function(){
 
 
 document.querySelector("#close").addEventListener("click", function(){
-    document.querySelector(".popup").style.display = "none";
+    document.querySelector(".overlay").style.display = "none";
 });
 
 document.querySelector("#popClose").addEventListener("click", function(){
-    document.querySelector(".popup").style.display = "none";
+    document.querySelector(".overlay").style.display = "none";
 });

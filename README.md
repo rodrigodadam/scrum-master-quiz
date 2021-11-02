@@ -434,7 +434,7 @@ I chose to use JSON because the syntax is very easy to use also JSON uses less d
 
 - **Minimal Security Against Cheating**
 
-# TO DO
+I understand that most people look for a quiz to test their knowledge, however there are still people who sabotage themselves and cheat what should be a help for. To prevent players from copying and pasting the questions was used in this project in all body of (`game.html`) the **onmousedown="return false**. So with this I can avoice copy and past. There are a simple way that you can copy and paste the questions with Right click and inspect the game, however for evaluation reasons I will leave this function to be inserted after the conclusion of this evaluation by CODE INSTITUTE.
 
 ### Test Strategy
 

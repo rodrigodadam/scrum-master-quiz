@@ -502,5 +502,9 @@ for your own idea. - Definition from [Github Docs](https://docs.github.com/en/fr
 
 ## ACKNOWLEDGEMENTS
 
+  - My Dear Friend Rimom Costa for all support.
+  - My Mentor Anthony for continuous helpful feedback.
+  - All Code Institute Tutor Support.
+
 
 <div align="right"><a href="#top">🔝</a></div>

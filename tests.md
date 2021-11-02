@@ -32,7 +32,7 @@
 
     - **script.js**
 
-    ![JS Hint Validator script.js](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/)
+    ![JS Hint Validator script.js](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/validator/scriptjs.png)
 
 - **Lighthouse**
 

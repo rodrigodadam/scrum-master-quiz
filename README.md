@@ -1,6 +1,3 @@
-# IN PROGRESS
-
-
 <div align="center">
 <h1>Scrum Master Quiz</h1>
 </div>

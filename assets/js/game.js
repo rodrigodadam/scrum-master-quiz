@@ -28,7 +28,7 @@ fetch("./questions.json").then(res => {
 
 
 const score_points = 5;
-const max_questions = 10;
+const max_questions = 20;
 
 
 // ====== Start Game Controllers ====== //
@@ -53,10 +53,10 @@ function startGame() {
  */
 function redirect() {
 
-    if (score > 10) {
+    if (score > 85) {
         localStorage.setItem("mostRecentScore", score);
         return window.location.assign("./pass.html");
-    } else if (score < 10) {
+    } else if (score < 85) {
         return window.location.assign("./fail.html");
     }
 
@@ -71,7 +71,7 @@ function redirect() {
 function getNewQuestion() {
 
     // If there are no more question or the game finish, call redirect()
-    if (questionCounter >= max_questions) {
+    if (questionCounter == max_questions) {
         redirect();
     }
    

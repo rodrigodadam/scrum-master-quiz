@@ -5,8 +5,8 @@
 
 <br>
 
-This is a responsive web application for Test the users knowledge about Scrum Master.
-The objective is to help the users check if they are prepareted for the SCRUM MASTER Test Certification.
+This is a responsive web application for testing the user's knowledge about Scrum Master.
+The objective is to help the users check if they are prepared for the SCRUM MASTER Test Certification.
 
 Link to the web-application available [HERE.](https://rodrigodadam.github.io/scrum-master-quiz/)
 
@@ -45,10 +45,10 @@ Link to the web-application available [HERE.](https://rodrigodadam.github.io/scr
 
 ## Project Goals
 
-Every day a lot of IT companies and also non IT companies are starting using the Agile Principles and one of the greatest Agile framework is SCRUM. 
-We can see in some recruiters web-site, like Indeed or LinkkedIN a increase a demand for these professionals and every day more people are looking for SCRUM MASTER Certification. This Project Main Goal is help these people who are looking for the SCRUM MASTER Certification giving them a small test to check their knowledge about the Scrum Master and how this works. As I'm a Certifield Scrum Master, I created the questions based in the [SCRUM GUIDE](https://www.scrum.org/resources/scrum-guide). 
+Every day a lot of IT companies and also non IT companies are starting using the Agile Principles and one of the greatest Agile frameworks is SCRUM. 
+We can see in some recruiters web-site, like Indeed or LinkedIN a increase a demand for these professionals and every day more people are looking for SCRUM MASTER Certification. This Project Main Goal is help these people who are looking for the SCRUM MASTER Certification giving them a small test to check their knowledge about the Scrum Master and how this works. As I'm a Certified Scrum Master, I created the questions based on the [SCRUM GUIDE](https://www.scrum.org/resources/scrum-guide). 
 
-The Second Goal of this project is help Web and Software Developers who are looking how build a simple quiz. This Web-Application was built in a way that anyone can only modify the questions and answers and thus have your quiz with a particular subject that suits your porpose.  
+The Second Goal of this project is to help Web and Software Developers who are looking to build a simple quiz. This Web-Application was built in a way that anyone can only modify the questions and answers and thus have your quiz with a particular subject that suits your purpose.  
 
 
 ## Users Experience Plan
@@ -56,12 +56,12 @@ The Second Goal of this project is help Web and Software Developers who are look
 
 - ### Player Strategy Plan
 
-The website is designed for the people who would like test the knowledge about SCRUM MASTER also could play with friends. It's a great tool for increase the user understanding about the certification test and what he can wait. The web-application was build to be ease to use, the Player just need go to [web-site](https://rodrigodadam.github.io/scrum-master-quiz/) and start to play. After finish the game or the time is out the player can Try Again, if do not pass or put you Name in the Best Scores History that will be storage on local storage.
+The website is designed for the people who would like to test the knowledge about SCRUM MASTER and also could play with friends. It's a great tool for increasing the user's understanding about the certification test and what he can wait for. The web-application was built to be easy to use, the Player just needed to go to [web-site](https://rodrigodadam.github.io/scrum-master-quiz/) and start to play. After finishing the game or the time is out the player can Try Again, if do not pass or put you Name in the Best Scores History that will be storage on local storage.
 
 
 - ### Developer Strategy Plan
 
-To who would like to biuld a Quiz web-application, this project was build in the way that the Developer User can simple modify the questions on a JSON.file and use all the structure for his own objective. Also the project is structured in a way that is easy to access and understand to make the necessary changes in the Design and in the Game Controllers.
+To those who would like to build a Quiz web-application, this project was built in the way that the Developer User can simply modify the questions on a JSON.file and use all the structure for his own objective. Also the project is structured in a way that is easy to access and understand to make the necessary changes in the Design and in the Game Controllers.
 
 <div align="right"><a href="#top">🔝</a></div>
 
@@ -89,7 +89,7 @@ The website consists in a **Home** page with **03 other pages** and **01 Pop-up*
 
 <br>
 
-The main page of the website. There is a game name, and 2 buttons. One is [Take a Quiz](https://rodrigodadam.github.io/scrum-master-quiz/game.html) that will start the quiz immediatly and the another one is [See Best Scores](https://rodrigodadam.github.io/scrum-master-quiz/best-scores.html) which will take the player to the page with the best scores played in that browser. Also there is a [Footer](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/structure/design/footer.png) with the simple informations about me that will take the player to my personal webpage.
+The main page of the website. There is a game name, and 2 buttons. One is [Take a Quiz](https://rodrigodadam.github.io/scrum-master-quiz/game.html) that will start the quiz immediately and the other one is [See Best Scores](https://rodrigodadam.github.io/scrum-master-quiz/best-scores.html) which will take the player to the page with the best scores played in that browser. Also there is a [Footer](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/structure/design/footer.png) with the simple informations about me that will take the player to my personal webpage.
 
 <br>
 
@@ -102,12 +102,12 @@ The main page of the website. There is a game name, and 2 buttons. One is [Take 
 <br>
 
 This panel is an User Friendly interface and is simple to use. 
-At the top the Player can see the [Game Display](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/structure/design/gamedisplay.png) where easy the User can track their Score, the Time remaning and how many questions was answered/remaining.
-At the midle the User can see the Properly Question follow below for 5 options to be answered and only one is correct.
+At the top the Player can see the [Game Display](https://github.com/rodrigodadam/scrum-master-quiz/blob/main/assets/images/structure/design/gamedisplay.png) where easy the User can track their Score, the Time remaining and how many questions was answered/remaining.
+At the middle the User can see the Properly Question follow below for 5 options to be answered and only one is correct.
 
-When the player select an option that answer will change the color for a brief time to give time to player see if the options is correct or incorrect. To correct option the user will see the answer turn yo green to incorrect will turn to red. Also for each correct answer the player score will be increased.
+When the player selects an option that answer will change the color for a brief time to give time to the player to see if the option is correct or incorrect. To correct option the user will see the answer turn yo green to incorrect will turn to red. Also for each correct answer the player score will be increased.
 
-To be User Friendly I've used the [Bootstrap Collor Pallete](https://colorswall.com/palette/3) to show the players whem they select Correct as answers and Incorrect Answers. More info about the colors in [Design Plan](#Design-Plan)
+To be User Friendly I've used the [Bootstrap Color Pallete](https://colorswall.com/palette/3) to show the players whem they select Correct as answers and Incorrect Answers. More info about the colors in [Design Plan](#Design-Plan)
 
 In all devices the game and the game display are positioned equal to avoid visual position problems. 
 
@@ -135,9 +135,9 @@ All players that did not reach a minimum 85% of score or more will be redirect t
 
 <br>
 
-All players that reach 85% of score or more  will be redirect to this page. This page has a objective to give the player a opportunity to Play with someone else on same Broswer and check who will bet more score or just challenge themselves and register the name in a Local Storage.
+All players that reach 85% of score or more  will be redirected to this page. This page has an objective to give the player an opportunity to Play with someone else on the same Browser and check who will bet more score or just challenge themselves and register the name in a Local Storage.
 This page has an **input form** and 3 buttons:
-The **input form** give the Player a chance to insert his/her name and Save it in the [Best Scores](https://rodrigodadam.github.io/scrum-master-quiz/best-scores.html). The **Save** button is blocked and only will be avaiable if the Player insert someting in the **input form**. Also the page has 2 more buttons **Play Again** that will redirect the user to a [Game Page](https://rodrigodadam.github.io/scrum-master-quiz/game.html) and restart a new game or **Home** that will redirect the player to [Home Page](https://rodrigodadam.github.io/scrum-master-quiz/index.html).
+The **input form** give the Player a chance to insert his/her name and Save it in the [Best Scores](https://rodrigodadam.github.io/scrum-master-quiz/best-scores.html). The **Save** button is blocked and only will be available if the Player insert something in the **input form**. Also the page has 2 more buttons **Play Again** that will redirect the user to a [Game Page](https://rodrigodadam.github.io/scrum-master-quiz/game.html) and restart a new game or **Home** that will redirect the player to [Home Page](https://rodrigodadam.github.io/scrum-master-quiz/index.html).
 
 
 <br>
@@ -150,7 +150,7 @@ The **input form** give the Player a chance to insert his/her name and Save it i
 
 <br>
 
-The page where users can see the Best Scores Payers played in that Broswer. This page also has 2 buttons **Challenge Youself** that will redirect the user to a [Game Page](https://rodrigodadam.github.io/scrum-master-quiz/game.html) and restart a new game or **Go Home** that will redirect the player to [Home Page](https://rodrigodadam.github.io/scrum-master-quiz/index.html). The same footer are used in Home Page was used in this page.
+The page where users can see the Best Scores Players played in that Browser. This page also has 2 buttons **Challenge Yourself** that will redirect the user to a [Game Page](https://rodrigodadam.github.io/scrum-master-quiz/game.html) and restart a new game or **Go Home** that will redirect the player to [Home Page](https://rodrigodadam.github.io/scrum-master-quiz/index.html). The same footer used in Home Page was used in this page.
 
 <br>
 
@@ -174,13 +174,13 @@ This part of the README is for those who intend to use this project for purpose 
 </div>
 <br>
 
-The Project Structure is singularly simple and easy to understand I have separated the folders in a way that is auto-directional and that users who need to make changes can easily identify where to find the ones they need.
+The Project Structure is singularly simple and easy to understand. I have separated the folders in a way that is auto-directional and that users who need to make changes can easily identify where to find the ones they need.
 
 - **Assets Folder**
   
   - **CSS Folder**
 
-  **#game.css** => All the CSS for (`game.html`) are in this file. To avoid mixing information with the crucial style details I created this file separated. In this folder the user can change all style to game page without modify the others pages style by mistake.
+  **#game.css** => All the CSS for (`game.html`) are in this file. To avoid mixing information with the crucial style details I created this file separated. In this folder the user can change all styles to game pages without modifying the others pages style by mistake.
 
   **#style.css** => The style of the other pages can be modified in this file.
 
@@ -190,12 +190,12 @@ The Project Structure is singularly simple and easy to understand I have separat
 
   - **JS Folder**
 
-  All the game controllers are here and can be modifield I'll present only the part of files that need be modifield by user to re-build the Quiz without broken the code.
+  All the game controllers are here and can be modified I'll present only the part of files that need be modified by user to rebuild the Quiz without broken the code.
 
   - **game.js** 
 
   - **Score Points =>**
-    To modify the score gained for each correct answer you can just modify the *const score_points = XX* where the XX will be the value of "points/score" gained for ech correct answer.
+    To modify the score gained for each correct answer you can just modify the *const score_points = XX* where the XX will be the value of "points/score" gained for each correct answer.
 
     ```javascript
     const score_points = XX;
@@ -203,7 +203,7 @@ The Project Structure is singularly simple and easy to understand I have separat
     ```
 
   - **Max Questions =>**
-    If the user need change the maximum of question for each game go to the *const max_questions = X* and change the X for the number os maximum question that the game will have.
+    If the user need change the maximum of question for each game go to the *const max_questions = X* and change the X for the number of maximum questions that the game will have.
 
     ```javascript
     const max_questions = X;
@@ -211,7 +211,7 @@ The Project Structure is singularly simple and easy to understand I have separat
     ```
 
   - **Timer =>**
-    To modify the game timer go to the function below in this file and change the **XX** to a new number. This number is where the timer starts countdown. Like if you insert 20 the countdown will start in 20 minutes and so.
+    To modify the game timer go to the function below in this file and change the **XX** to a new number. This number is where the timer starts the countdown. Like if you insert 20 the countdown will start in 20 minutes and so.
 
     ```javascript
     window.onload = function () {
@@ -223,7 +223,7 @@ The Project Structure is singularly simple and easy to understand I have separat
     ```
 
   - **Redirect =>**
-    This function will redirect the Players to designed page (`fail.html`) or (`pass.html`) as per their score. In the Scrum Master Quiz was set the minimum score of 85% as the SCRUM MASTER OFFICIAL test request this score to pass. Here the Developer can modify the Pass score to a number of their choice and this number will determine which page the player will be redirected to according to their score. Change the **XX** for a number/score of your choice.
+    This function will redirect the Players to the designated page (`fail.html`) or (`pass.html`) as per their score. In the Scrum Master Quiz was set the minimum score of 85% as the SCRUM MASTER OFFICIAL test requests this score to pass. Here the Developer can modify the Pass score to a number of their choice and this number will determine which page the player will be redirected to according to their score. Change the **XX** for a number/score of your choice.
 
     ```javascript
     function redirect() {
@@ -240,7 +240,7 @@ The Project Structure is singularly simple and easy to understand I have separat
 - **HTML Files**
 
   - **index.html =>**
-    The user can modify the page **title** to a better choice for their porpose modifying the title as image below.  
+    The user can modify the page **title** to a better choice for their purpose modifying the title as image below.  
 
   <br>
 
@@ -248,7 +248,7 @@ The Project Structure is singularly simple and easy to understand I have separat
 
   <br>
 
-    Also the Hero Title (like Game Name) could be modifield as image below.
+    Also the Hero Title (like Game Name) could be modified as image below.
 
   <br>
 
@@ -259,9 +259,9 @@ The Project Structure is singularly simple and easy to understand I have separat
 - **JSON File / Questions**
 
   All the questions could be implemented in this file as example below.
-  This is a **JSON file** and to follow the project gides the user need a Questions, 5 Options and insert the correct at the ("answer": X) the user need  to replace the X for the correct option. As the 1st example the correct answer is the option 4, so the answer number is 4.
+  This is a **JSON file** and to follow the project guides the user needs a Questions, 5 Options and insert the correct at the ("answer": X) the user needs to replace the X for the correct option. As the 1st example, the correct answer is option 4, so the answer number is 4.
 
-  The User can Add as many question as need to this game. 
+  The User can Add as many questions as needed to this game. 
 
   ```json
   [
@@ -305,7 +305,7 @@ The Project Structure is singularly simple and easy to understand I have separat
 Inspired in the [scrum.org](https://www.scrum.org/), The 3 Main colors are:
 
 Catskill White (#EEF6F7) used as background color is nn all background pages to be clean and do not disturb the Player with High Tones. 
-Dark Blue Grey (#1F3B4D) used in the moust of text the colors. 
+Dark Blue Grey (#1F3B4D) used in most of the text and colors. 
 Eastern Blue (#1E9AB0) used in all buttons.
 
 This colors create an harmonic design and that has a great inspiration on the official website to make the official SCRUM MASTER certification.
@@ -316,7 +316,7 @@ This colors create an harmonic design and that has a great inspiration on the of
 
 </div>
 
-On the **Game Page** I used the [Bootstrap 4 Collor Pallete](https://colorswall.com/palette/3) to show the Player if the selected answer was correct or incorrect. The color used are (#5CB85C) to Correct answers used in Bootstrat 4 in a Sucess Buttons and (#D9534F) to Incorrect answers used in Bootstrap 4 to Danger Buttons. As example below.
+On the **Game Page** I used the [Bootstrap 4 Color Pallete](https://colorswall.com/palette/3) to show the Player if the selected answer was correct or incorrect. The color used are (#5CB85C) to Correct answers used in Bootstrap 4 in a Success Buttons and (#D9534F) to Incorrect answers used in Bootstrap 4 to Danger Buttons. As an example below.
 
 <div align="center">
 
@@ -355,7 +355,7 @@ For (H2) was used **Open Sans**.
 
 ### Existing Features
 
-This project is well-structured to work efficiently and be modifield as needed.
+This project is well-structured to work efficiently and be modified as needed.
 
 - Create with **HTML5**, **CSS3** and **JavaScript**
 - It consists of 1 base html file and 4 other html files
@@ -363,7 +363,7 @@ This project is well-structured to work efficiently and be modifield as needed.
 - For Players:
   1. Just OPEN AND PLAY, User Friendly designed to be easy to play the game
 - For Developers Only:
-  1. Well designed and structured to be easy to modify the game for new porposes
+  1. Well designed and structured to be easy to modify the game for new purposes
   1. All questions are in a JSON file
 
 ### Features Left To Implement
@@ -426,12 +426,12 @@ This project is well-structured to work efficiently and be modifield as needed.
 
 - **Questions Storage**
 
-This was defenitly the big issue that I had during the project. Initially I inserted the questions together in (`game.js`) file as a variable. However, as I would like to make the project cleaner and easier to understand, I had to find new solutions for storing the questions and not mixing it Questions with the Functions to avoid future problems. The first solutions that I try was create a new JS file named (`questions.js`) and I migrated all the questions from (`game.js`) to (`questions.js`) creating a unique place to store the questions. I used (`modules`) to import the questions from (`questions.js`) to (`game.js`) and work perfect. But I was not satisfied with another JS file. So I decided to implement a JSON file with all questions and create a (`questions.json`) and again transfering all questions from (`questions.js`) to (`questions.json`). 
-I chose to use JSON because the syntax is very easy to use also JSON uses less data overall, so I reduce the cost and increase the parsing speed and the structure is straightforward and readable.
+This was definitely the big issue that I had during the project. Initially I inserted the questions together in (`game.js`) file as a variable. However, as I would like to make the project cleaner and easier to understand, I had to find new solutions for storing the questions and not mixing it Questions with the Functions to avoid future problems. The first solution that I tried was to create a new JS file named (`questions.js`) and I migrated all the questions from (`game.js`) to (`questions.js`) creating a unique place to store the questions. I used (`modules`) to import the questions from (`questions.js`) to (`game.js`) and it worked perfectly. But I was not satisfied with another JS file. So I decided to implement a JSON file with all questions and create a (`questions.json`) and again transfering all questions from (`questions.js`) to (`questions.json`). 
+I chose to use JSON because the syntax is very easy to use. Also JSON uses less data overall, so I reduce the cost and increase the parsing speed and the structure is straightforward and readable.
 
 - **Minimal Security Against Cheating**
 
-I understand that most people look for a quiz to test their knowledge, however there are still people who sabotage themselves and cheat what should be a help for. To prevent players from copying and pasting the questions was used in this project in all body of (`game.html`) the **onmousedown="return false**. So with this I can avoice copy and past. There are a simple way that you can copy and paste the questions with Right click and inspect the game, however for evaluation reasons I will leave this function to be inserted after the conclusion of this evaluation by CODE INSTITUTE.
+I understand that most people look for a quiz to test their knowledge, however there are still people who sabotage themselves and cheat what should be a help for. To prevent players from copying and pasting the questions was used in this project in all body of (`game.html`) the **onmousedown="return false**. So with this I can avoice copy and paste. There is a simple way that you can copy and paste the questions with Right click and inspect the game, however for evaluation reasons I will leave this function to be inserted after the conclusion of this evaluation by CODE INSTITUTE.
 
 ### Test Strategy
 
@@ -451,7 +451,7 @@ Testing is required on all features and user stories documented in this README. 
 To create this project I used the CI Gitpod Full Template by navigating 
 [here](https://github.com/Code-Institute-Org/gitpod-full-template) and clicking the 'Use this template' button.
 
-I was then directed to the create new repository from template page and entered in my desired repo name, then 
+I was then directed to the create new repository from the template page and entered in my desired repo name, then 
 clicked Create repository from template button.
 
 Once created, I navigated to my new repository on GitHub and clicked the Gitpod button which built my workspace.
@@ -491,8 +491,8 @@ for your own idea. - Definition from [Github Docs](https://docs.github.com/en/fr
 
 — **Researches** —
 
-  - I used W3Shools and Devdocs to help me with some HTML and CSS informations/Documentation
-  - Also to fix some bugs that I do not found inside documentation I used the Comunity Stackoverflow to help me with this bugs and Google.com
+  - I used W3Schools and Devdocs to help me with some HTML and CSS informations/Documentation
+  - Also to fix some bugs that I do not found inside documentation I used the Community Stackoverflow to help me with this bugs and Google.com
 
   <div align="right"><a href="#top">🔝</a></div>
 
